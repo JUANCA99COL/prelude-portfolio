@@ -8,6 +8,74 @@
   overflow-y: hidden;
 }
 
+/* ------------------- font  -------------------*/
+
+
+@font-face {
+  font-family: Subjectivity;
+  font-weight: 200;
+  src: url("../font/Subjectivity-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Subjectivity;
+  font-weight: 300;
+  src: url("../font/Subjectivity-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Subjectivity;
+  font-weight: 400;
+  src: url("../font/Subjectivity-Medium.otf") format("opentype");
+}
+
+  @font-face {
+    font-family: Subjectivity;
+    font-weight: normal;
+    src: url("../font/Subjectivity-Bold.otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: Subjectivity;
+    font-weight: bold;
+    src: url("../font/Subjectivity-ExtraBold.otf") format("opentype");
+  }
+  
+
+  .BOAheading, .CDDheading, .WUXheading {
+    font-family: Subjectivity;
+  }
+
+  #WUX_nav, #CDD_nav, #BOA_nav {
+    font-family: Subjectivity;
+  }
+
+  .right-2021, .left-2021, .triangle-2021 {
+    font-family: Subjectivity;
+  }
+
+  .aboutContainer h4 {
+    font-family: Subjectivity;
+    text-transform: uppercase;
+  }
+
+  .aboutContainer p {
+    font-family: Subjectivity;
+    font-weight: 300;
+  }
+
+  .aboutContainer ul li {
+    font-family: Subjectivity;
+    font-weight: 300;
+  }
+
+  .card-body h5 {
+    font-family: Subjectivity;
+    font-weight: 300;
+  }
+
+
+
 .borders {
   border-right: 6px solid white;
   height: 1023px;
@@ -249,6 +317,7 @@
          margin-top: 200px;
          display: none;
          font-size: 38px;
+
          color: white;
          text-decoration: none;
        }
