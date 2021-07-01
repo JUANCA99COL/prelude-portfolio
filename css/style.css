@@ -7,6 +7,7 @@
   -webkit-box-shadow: 0px 4px 20px 6px rgb(131 59 23);
   -moz-box-shadow: 0px 14px 41px -15px rgba(0,0,0,0.75);
   box-shadow: 0px 14px 41px -15px rgb(0 0 0 / 75%); 
+  margin-bottom: 5px;
 }
 
 .col img{
@@ -212,21 +213,6 @@ transition: all 0.3s ease;
       display: none;
      }
 
-     .triangle:hover .triangle-2021, .left:hover .left-2021, .right:hover .right-2021 {
-      display: inline-block;
-    }
-
-    /* hover div to get pointer */
-
-    .triangle:hover, .left:hover, .right:hover {
-      cursor: pointer;
-    }
-
-        /* hover div to change font weight*/
-
-    .triangle:hover .CDDheading, .left:hover .BOAheading, .right:hover .WUXheading {
-      font-weight: bold;
-    }
 
 
 
@@ -448,7 +434,7 @@ transition: all 0.3s ease;
       font-size: 17px;
       text-align: center;
       list-style-type: none;
-      background-color: rgba(147, 214, 223, 0.6);
+      background-color: rgba(147, 214, 223, 1);
       position: relative;
       line-height: 40px;
     }
@@ -465,7 +451,7 @@ transition: all 0.3s ease;
       font-size: 17px;
       text-align: center;
       list-style-type: none;
-      background-color: rgba(137, 79, 159, 0.6);
+      background-color: rgba(137, 79, 159, 1);
       position: relative;
       line-height: 40px;
     }
@@ -482,7 +468,7 @@ transition: all 0.3s ease;
       font-size: 17px;
       text-align: center;
       list-style-type: none;
-      background-color: rgba(227, 123, 76, 0.6);
+      background-color: rgba(227, 123, 76, 1);
       position: relative;
       line-height: 40px;
     }
@@ -500,10 +486,6 @@ transition: all 0.3s ease;
       text-decoration: none;
     }
 
-    #WUX_nav:hover, #CDD_nav:hover, #BOA_nav:hover {
-      font-weight: bold;
-      color: #fff;
-    }
    
     .nav-left {
       position: absolute;
@@ -605,6 +587,62 @@ margin: 0;
         padding-top: 70px;
       }
 
+    }
+
+    @media only screen and (min-width: 1024px) {
+      #WUX_nav:hover, #CDD_nav:hover, #BOA_nav:hover {
+        font-weight: bold;
+        color: #fff;
+        margin-top: 5px;
+      }
+
+      .triangle:hover .triangle-2021, .left:hover .left-2021, .right:hover .right-2021 {
+        display: inline-block;
+      }
+  
+      /* hover div to get pointer */
+  
+      .triangle:hover, .left:hover, .right:hover {
+        cursor: pointer;
+      }
+  
+          /* hover div to change font weight*/
+  
+      .triangle:hover .CDDheading, .left:hover .BOAheading, .right:hover .WUXheading {
+        font-weight: bold;
+      }
+    }
+
+
+    .accordion-button {
+      border-radius: 50rem!important;
+      font-family: Subjectivity;
+      margin-top: 20px;
+    }
+
+    .BOAinfo .accordion-item {
+      border-radius: 2rem!important;
+      /* background-color: #1C2C4C; */
+      /* background-color: rgba(196, 76, 4, 0.6); */
+      background-color: rgba(7, 4, 12, 0.7);
+      font-weight: 400;
+      font-family: Subjectivity;
+    }
+
+    .WUXinfo .accordion-item {
+      border-radius: 2rem!important;
+      /* background-color: #1C2C4C; */
+      background-color: rgba(7, 4, 12, 0.7);
+      font-weight: 400;
+      font-family: Subjectivity;
+    }
+
+    .CDDinfo .accordion-item {
+      border-radius: 2rem!important;
+      /* background-color: #1C2C4C; */
+      background-color: rgba(7, 4, 12, 0.7);
+      font-weight: 400;
+      font-family: Subjectivity;
     }
 
         /* -------------- Slideshow gallery -------------- */
