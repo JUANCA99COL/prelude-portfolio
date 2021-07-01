@@ -1,0 +1,693 @@
+*{
+  padding:0;
+  margin: 0;
+}
+
+.front-page {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.borders {
+  border-right: 6px solid white;
+  height: 1023px;
+  margin-top: 55px;
+  float: right;
+  margin-right: 164px;
+}
+
+.borders-r {
+  border-right: 6px solid white;
+  height: 1023px;
+  margin-top: -805px;
+  float: left;
+  margin-left: 164px;
+}
+
+.borders-cdd {
+  border-right: 6px solid white;
+  height: 1023px;
+  margin-top: -1600px;
+  float: left;
+  margin-left: 164px;
+}
+
+#full-screen {
+  width:100vw;
+  height:100vh;
+  position:fixed;
+  top:0;
+  left:0;
+  opacity:0;
+  z-index:9999999;
+}
+
+#trapezoid {
+    border-bottom: 500px solid orange;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 500px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+
+
+  #base {
+    border-top: 1px solid orange;
+    border-bottom: 50vh solid purple;
+    border-left: 55vw solid transparent;
+    border-right: 55vw solid transparent;
+    content: "";
+    height: 50vh;
+    left: 0;
+    position: absolute;
+    top: 500px;
+    width: 0;
+  }
+
+
+  .triangle {
+    width: 120vw;
+    height: 500px;
+    /* height: 400px; */
+    background: purple;
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    position: absolute;
+    bottom: 0%;
+    left: -10%;
+    color: white;
+    background-image: url("../images/CDDbackground72.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .left {
+    background-color: orange;
+    width: 50%;
+    /* height: auto; */
+    height: 100vh;
+    color: white;
+    background-image: url("../images/BOAbackground72.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .right {
+    background-color: aqua;
+    width: 50%;
+    /* height: auto; */
+    height: 100vh;
+    color: white;
+    background-image: url("../images/WUXbackground72.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+    .CDDheading, .WUXheading, .BOAheading {
+      margin-top: 200px;
+      display: none;
+      font-size: 60px;
+      color: white;
+      text-decoration: none;
+    }
+
+    /* .CDDheading:hover,
+    .WUXheading:hover, 
+    .BOAheading:hover {
+      color: black;
+      cursor: pointer;
+    } */
+
+                 /* hover div to show subheading*/
+
+    .triangle .triangle-2021, .left .left-2021, .right .right-2021{
+      display: none;
+     }
+
+     .triangle:hover .triangle-2021, .left:hover .left-2021, .right:hover .right-2021 {
+      display: inline-block;
+    }
+
+    /* hover div to get pointer */
+
+    .triangle:hover, .left:hover, .right:hover {
+      cursor: pointer;
+    }
+
+        /* hover div to change font weight*/
+
+    .triangle:hover .CDDheading, .left:hover .BOAheading, .right:hover .WUXheading {
+      font-weight: bold;
+    }
+
+
+
+
+
+    .container {
+      position: relative;
+    }
+
+
+    #defaultCanvas0 {
+      transform: scale(0.5);
+      position: relative;
+      margin-left: -400px;
+      margin-top: -380px;
+      top: 50%;
+      left: 50%;
+      cursor: pointer;
+      transition:all 0.4s ease;
+
+    }
+
+    #canvas-wrapper {
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition:all 0.4s ease;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    
+
+
+
+  
+
+    /* animation  */
+
+
+    .BOA-students{
+      background-image: url(../images/BOAbackground72.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: repeat;
+      height: 100vh;
+    }
+
+    .CDD-students{
+      background-image: url(../images/CDDbackground72.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: repeat;
+      
+    }
+
+    .WUX-students{
+      background-image: url(../images/WUXbackground72.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: repeat;
+      height: 100%;
+    }
+    /* bootsrap custom style*/
+
+    .opacity-1 {
+      opacity:0.2!important;
+    }
+
+    .spaces {
+      display: none;
+    }
+
+      /* students page madia quaries borders  */
+
+      @media only screen and (max-width: 1700px) {
+        .borders {
+          display: none;
+        }
+  
+        .borders-r {
+          display: none;
+        }
+
+        .borders-cdd {
+          display: none;
+        }
+      }
+
+
+            /* Home page madia quaries  */
+
+      @media only screen and (max-width: 1200px) {
+        .WUXheading, .BOAheading, .CDDheading {
+         margin-top: 200px;
+         display: none;
+         font-size: 38px;
+         color: white;
+         text-decoration: none;
+       }
+
+       .spaces {
+         display: block;
+       }
+
+       #defaultCanvas0 {
+        transform: scale(0.5);
+        position: absolute;
+        margin-top: -300px;
+        top: 50%;
+        left: 50%;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    
+      }
+     }
+
+     @media only screen and (max-width: 414px) {
+           .WUXheading, .BOAheading, .CDDheading {
+           margin-top: 200px;
+           display: none;
+           font-size: 28px;
+           color: white;
+           text-decoration: none;
+         }
+
+         .spaces {
+           display: block;
+         }
+
+         .triangle {
+          width: 120vw;
+          height: 50vh;
+          /* height: 400px; */
+          background: purple;
+          clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+          position: absolute;
+          bottom: 0%;
+          left: -10%;
+          color: white;
+          background-image: url(../images/CDDbackground72.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          /* margin-bottom: -130px; */
+
+     }
+
+       #defaultCanvas0 {
+        transform: scale(0.3);
+        position: absolute;
+        margin-top: -388px;
+        top: 50%;
+        left: 50%;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    
+        }
+    }
+
+
+
+
+
+    /* -------------- single student template -------------- */
+
+    .WUXnav_image {
+      width: 100%;
+      height: 300px;
+      background-image: url(../images/WUXbackgorund72.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .CDDnav_image {
+      width: 100%;
+      height: 300px;
+      background-image: url(../images/CDDbackgorund72.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .BOAnav_image {
+      width: 100%;
+      height: 300px;
+      background-image: url(../images/BOAbackgorund72.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+
+    header {
+      width: 100%;
+    }
+    .WUX-nav {
+      font-size: 13px;
+      text-align: center;
+      list-style-type: none;
+      background-color: rgba(147, 214, 223, 0.6);
+      position: relative;
+      line-height: 40px;
+    }
+    .WUX-nav ul {
+        padding: 10px 0;
+        margin: 0;
+    }
+    .WUX-nav li {
+      display: inline-block;
+      vertical-align: text-top;
+    }
+
+    .CDD-nav {
+      font-size: 13px;
+      text-align: center;
+      list-style-type: none;
+      background-color: rgba(137, 79, 159, 0.6);
+      position: relative;
+      line-height: 40px;
+    }
+    .CDD-nav ul {
+        padding: 10px 0;
+        margin: 0;
+    }
+    .CDD-nav li {
+      display: inline-block;
+      vertical-align: text-top;
+    }
+
+    .BOA-nav {
+      font-size: 13px;
+      text-align: center;
+      list-style-type: none;
+      background-color: rgba(227, 123, 76, 0.6);
+      position: relative;
+      line-height: 40px;
+    }
+    .BOA-nav ul {
+        padding: 10px 0;
+        margin: 0;
+    }
+    .BOA-nav li {
+      display: inline-block;
+      vertical-align: text-top;
+    }
+    .nav-link a {
+      padding: 13px;
+      color: #fff;
+      text-decoration: none;
+    }
+    .nav-link:hover {
+      font-weight: bold;
+      color: #fff;
+    }
+    .nav-left {
+      position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+
+    .nav_active {
+      font-size: 30px;
+    }
+
+    .student_name {
+      color: white;
+      margin-top: 70px;
+      font-weight: bold;
+    }
+
+    .WUXaboutBackgorund {
+      background-color: rgba(152, 211, 221, 0.15);
+      margin-top: 150px;
+    }
+
+    .BOAaboutBackgorund {
+      background-color: rgba(227, 123, 76, 0.15);
+      margin-top: 150px;
+    }
+
+    .CDDaboutBackgorund {
+      background-color: rgba(137, 79, 159, 0.15);
+      margin-top: 150px;
+    }
+
+    .student_image {
+      border-radius: 50%;
+      width: 250px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-top: 50px;
+    }
+
+    .aboutContainer {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .aboutContainer ul {
+      padding-left: 0;
+    }
+    .WUXcopyright {
+      background-color: rgba(152, 211, 221, 0.3);
+      height: 50px;
+      text-align: center;
+    }
+    .BOAcopyright {
+      background-color: rgba(227, 123, 76, 0.3);
+      height: 50px;
+      text-align: center;
+    }
+    .CDDcopyright {
+      background-color: rgba(137, 79, 159, 0.3);
+      height: 50px;
+      text-align: center;
+    }
+    .copyrightText {
+      padding: 15px;
+    }
+
+    .copyrightText p{
+margin: 0;
+    }
+
+    @media only screen and (max-width: 768px) {
+      .nav-left {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+      }
+      .WUX-nav {
+        height: 140px;
+      }
+      .WUX-nav ul {
+        padding-top: 70px;
+      }
+
+      .BOA-nav {
+        height: 140px;
+      }
+      .BOA-nav ul {
+        padding-top: 70px;
+      }
+
+      .CDD-nav {
+        height: 140px;
+      }
+      .CDD-nav ul {
+        padding-top: 70px;
+      }
+
+    }
+
+        /* -------------- Slideshow gallery -------------- */
+
+    /* .SlideshowContainer img {
+      vertical-align: middle;
+    }
+
+    .SlideshowContainer a{
+      text-decoration: none;
+    } */
+
+
+
+    
+    /* Position the image container (needed to position the left and right arrows) */
+    /* .SlideshowContainer {
+      position: relative;
+      margin-top: 150px;
+    } */
+    
+    /* Hide the images by default */
+    /* .mySlides {
+      display: none;
+    } */
+    
+    /* Add a pointer when hovering over the thumbnail images */
+    /* .cursor {
+      cursor: pointer;
+    } */
+    
+    /* Next & previous buttons */
+    /* .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 40%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    } */
+    
+    /* Position the "next button" to the right */
+    /* .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    } */
+    
+    /* On hover, add a black background color with a little bit see-through */
+    /* .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+    } */
+    
+    /* Number text (1/3 etc) */
+    /* .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    } */
+    
+    /* Container for image text */
+    /* .caption-container {
+      text-align: center;
+      background-color: white;
+      padding: 2px 16px;
+      color: black;
+    } */
+    
+    /* Six columns side by side */
+    /* .column {
+      float: left;
+      width: 16.66%;
+    } */
+    
+    /* Add a transparency effect for thumnbail images */
+    /* .demo {
+      opacity: 0.6;
+    }
+    
+    .active,
+    .demo:hover {
+      opacity: 1;
+    } */
+
+    .clearMP{
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+
+/* W3 SCHOOLS IMG SLIDESHOW */
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
