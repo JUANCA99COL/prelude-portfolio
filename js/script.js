@@ -189,7 +189,7 @@ $(document).ready(function () {
         {
             id: 9,
             class: 'Web & UX Design',
-            name: 'Juan Camilo Caro Rodriguez',
+            name: 'Juan Camilo Caro',
             email: 'jcamilocarorodriguez@gmail.com',
             photoProfile: 'Juan.jpg',
             social: '@juankcaro',
@@ -600,7 +600,7 @@ $(document).ready(function () {
             '<div class="col">' +
             '<a href="" class="student-link"><img src="images/BachelorOfAnimation/BW/' + studentsBOA[i].photoProfile + '" class="card-img-top rounded-circle border border border-5 border-light" alt="' + '"></a>' +
             '<div class="card-body">' +
-            '<h5 class="card-title text-center">' + studentsBOA[i].name + '</h5>' +
+            '<h5 class="card-title text-center bg-white p-2 rounded-pill">' + studentsBOA[i].name + '</h5>' +
             '</div>' +
             '</div>'
         ); //end of apprend
@@ -623,7 +623,7 @@ $(document).ready(function () {
             '<div class="col" data-bs-toggle="modal" data-bs-target=#'+ studentsWUX[j].name.replace(/ /g, "") +' >' +
               '<a href="" class="student-link"><img src="images/Web&UxDesign/BW/' + studentsWUX[j].photoProfile + '" class="card-img-top rounded-circle border border border-5 border-light" alt="' + '"></a>' +
               '<div class="card-body " >' +
-                '<h5 class="card-title text-center">'+studentsWUX[j].name+'</h5>' +
+                '<h5 class="card-title text-center bg-white p-2 rounded-pill">'+studentsWUX[j].name+'</h5>' +
               '</div>' +
             '</div>'+
 
@@ -679,7 +679,7 @@ $(document).ready(function () {
             '<div class="col">' +
             '<a href="" class="student-link"><img src="images/CreativeDigitalDesign/BW/' + studentsCDD[j].photoProfile + '" class="card-img-top rounded-circle border border border-5 border-light" alt="' + '"></a>' +
             '<div class="card-body">' +
-            '<h5 class="card-title text-center">' + studentsCDD[j].name + '</h5>' +
+            '<h5 class="card-title text-center bg-white p-2 rounded-pill">' + studentsCDD[j].name + '</h5>' +
             '</div>' +
             '</div>'
         ); //end of apprend
