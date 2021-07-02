@@ -707,7 +707,7 @@ $(document).ready(function () {
                                 '</div>'+
                                 '<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 aboutContainer">'+
                                     '<h4>About</h4>'+
-                                    '<p>'+ studentsWUX[j].detail +'</p>'+
+                                    '<p>'+ studentsWUX[j].detail +'</p><br>'+
                                     '<h4>Contact Links</h4>'+
                                     '<ul>'+
                                         '<li>'+ studentsWUX[j].social +'</li>'+
