@@ -209,9 +209,9 @@ transition: all 0.3s ease;
 
                  /* hover div to show subheading*/
 
-    .triangle .triangle-2021, .left .left-2021, .right .right-2021{
-      display: none;
-     }
+    .no-touch .triangle .triangle-2021, .no-touch .left .left-2021, .no-touch .right .right-2021{
+    display: none;
+    }
 
     .container {
       position: relative;
