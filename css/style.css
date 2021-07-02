@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+ul {
+  list-style: inside;
+}
+
 .no-touch .col img:hover{
   -webkit-box-shadow: 0px 4px 20px 6px rgb(131 59 23);
   -moz-box-shadow: 0px 14px 41px -15px rgba(0,0,0,0.75);
@@ -156,7 +160,6 @@ transition: all 0.3s ease;
   .triangle {
     width: 120vw;
     height: 500px;
-    /* height: 400px; */
     background: purple;
     clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
     position: absolute;
@@ -173,7 +176,6 @@ transition: all 0.3s ease;
   .left {
     background-color: orange;
     width: 50%;
-    /* height: auto; */
     height: 100vh;
     color: white;
     background-image: url("../images/BOAbackground72.png");
@@ -186,7 +188,6 @@ transition: all 0.3s ease;
   .right {
     background-color: aqua;
     width: 50%;
-    /* height: auto; */
     height: 100vh;
     color: white;
     background-image: url("../images/WUXbackground72.png");
@@ -207,11 +208,13 @@ transition: all 0.3s ease;
       text-decoration: none;
     }
 
+
                  /* hover div to show subheading*/
 
     .no-touch .triangle .triangle-2021, .no-touch .left .left-2021, .no-touch .right .right-2021{
     display: none;
     }
+
 
     .container {
       position: relative;
@@ -241,14 +244,7 @@ transition: all 0.3s ease;
       margin-left: auto;
     }
 
-    
-
-
-
-  
-
     /* animation  */
-
 
     .BOA-students{
       background-image: url(../images/BOAbackground72.png);
@@ -283,138 +279,6 @@ transition: all 0.3s ease;
       display: none;
     }
 
-      /* students page madia quaries borders  */
-
-      @media only screen and (max-width: 1700px) {
-        .borders {
-          display: none;
-        }
-  
-        .borders-r {
-          display: none;
-        }
-
-        .borders-cdd {
-          display: none;
-        }
-
-        .CDDspaces {
-          display: block;
-        }
-      }
-
-      /* laptop size */
- 
- @media only screen and (max-height: 720px) {
-  .WUXheading, .BOAheading, .CDDheading {
-  margin-top: 162px;
-  font-size: 38px;
-  }
-  }
-  
-  /* iphone 8 size */
-  
-  @media only screen and (max-height: 667px) {
-  .WUXheading, .BOAheading, .CDDheading {
-  margin-top: 140px;
-  /* font-size: 21px; */
-  
-  }
-  }
-
-      
-
-
-            /* Home page madia quaries  */
-
-      @media only screen and (max-width: 1200px) {
-        .WUXheading, .BOAheading, .CDDheading {
-         /* margin-top: 200px; */
-         font-size: 38px;
-       }
-
-       .spaces {
-         display: block;
-       }
-
-       #defaultCanvas0 {
-        transform: scale(0.5);
-        position: absolute;
-        margin-top: -300px;
-        top: 50%;
-        left: 50%;
-        cursor: pointer;
-        transition: all 0.3s ease;
-    
-      }
-
-        .triangle {
-          width: 120vw;
-          height: 420px;
-          /* height: 400px; */
-          background: purple;
-          clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
-          position: absolute;
-          bottom: 0%;
-          left: -10%;
-          color: white;
-          background-image: url(../images/CDDbackground72.png);
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-      }
-     }
-
-     @media only screen and (max-width: 414px) {
-           .WUXheading, .BOAheading, .CDDheading {
-           font-size: 24px;
-         }
-
-         .spaces {
-           display: block;
-         }
-
-         .triangle {
-          width: 120vw;
-          height: 50%;
-          background: purple;
-          clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
-          position: absolute;
-          bottom: 0%;
-          left: -10%;
-          color: white;
-          background-image: url(../images/CDDbackground72.png);
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-      }
-
-        #defaultCanvas0 {
-          transform: scale(0.3);
-          position: absolute;
-          margin-top: -298px;
-          margin-left: -450px;
-          top: 50%;
-          left: 50%;
-          cursor: pointer;
-          transition: all 0.3s ease;
-      }
-    }
-
-    @media only screen and (max-width: 375px) {
-      .CDDheading {
-         margin-top: 120px;
-      font-size: 24px;
-      
-    }
-    .nav-link a {
-      padding: 0px !important;
-  }
-}
-
-
-
-
 
     /* -------------- single student template -------------- */
 
@@ -444,7 +308,6 @@ transition: all 0.3s ease;
       background-size: cover;
       background-repeat: no-repeat;
     }
-
 
     header {
       width: 100%;
@@ -505,7 +368,6 @@ transition: all 0.3s ease;
       text-decoration: none;
     }
 
-   
     .nav-left {
       position: absolute;
         left: 10px;
@@ -575,46 +437,8 @@ transition: all 0.3s ease;
     }
 
     .copyrightText p{
-margin: 0;
+      margin: 0;
     }
-
-    @media only screen and (max-width: 768px) {
-      .nav-left {
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-      }
-      .WUX-nav {
-        height: 140px;
-      }
-      .WUX-nav ul {
-        padding-top: 70px;
-      }
-
-      .BOA-nav {
-        height: 140px;
-      }
-      .BOA-nav ul {
-        padding-top: 70px;
-      }
-
-      .CDD-nav {
-        height: 140px;
-      }
-      .CDD-nav ul {
-        padding-top: 70px;
-      }
-      .aboutContainer {
-        padding: 40px;
-      }
-
-      .modal-body{
-        overflow-y: visible!important;
-      }
-    }
-
-
 
     .no-touch .triangle:hover .triangle-2021, .no-touch .left:hover .left-2021, .no-touch .right:hover .right-2021{
       display: inline-block;
@@ -634,46 +458,35 @@ margin: 0;
     margin-top: 5px;
   }
 
-/* .touch .triangle .triangle-2021, .touch .left .left-2021, .touch .right .right-2021{
-    display: inline-block;
- } */
+  .accordion-button {
+    border-radius: 50rem!important;
+    font-family: Subjectivity;
+    margin-top: 20px;
+  }
 
+  .BOAinfo .accordion-item {
+    border-radius: 2rem!important;
+    background-color: rgba(7, 4, 12, 0.7);
+    font-weight: 400;
+    font-family: Subjectivity;
+  }
 
+  .WUXinfo .accordion-item {
+    border-radius: 2rem!important;
+    background-color: rgba(7, 4, 12, 0.7);
+    font-weight: 400;
+    font-family: Subjectivity;
+  }
 
-    .accordion-button {
-      border-radius: 50rem!important;
-      font-family: Subjectivity;
-      margin-top: 20px;
-    }
-
-    .BOAinfo .accordion-item {
-      border-radius: 2rem!important;
-      /* background-color: #1C2C4C; */
-      /* background-color: rgba(196, 76, 4, 0.6); */
-      background-color: rgba(7, 4, 12, 0.7);
-      font-weight: 400;
-      font-family: Subjectivity;
-    }
-
-    .WUXinfo .accordion-item {
-      border-radius: 2rem!important;
-      /* background-color: #1C2C4C; */
-      background-color: rgba(7, 4, 12, 0.7);
-      font-weight: 400;
-      font-family: Subjectivity;
-    }
-
-    .CDDinfo .accordion-item {
-      border-radius: 2rem!important;
-      /* background-color: #1C2C4C; */
-      background-color: rgba(7, 4, 12, 0.7);
-      font-weight: 400;
-      font-family: Subjectivity;
-    }
+  .CDDinfo .accordion-item {
+    border-radius: 2rem!important;
+    background-color: rgba(7, 4, 12, 0.7);
+    font-weight: 400;
+    font-family: Subjectivity;
+  }
 
   
 /* Modal Styling - Josh */
-
 .modal-title {
   width: 100%;
   display: inline-block;
@@ -689,13 +502,9 @@ margin: 0;
 }
 
 
-
-
-
-
 /* Natalias's code 01 */
 .container-portfolio {
-  column-count: 4;
+  column-count: 3;
   padding: 20px;
 }
 
@@ -730,14 +539,10 @@ margin: 0;
   max-height: 100vh;
   width: 100%;
   z-index: 5;
-  /* opacity: 0; */
-  /* pointer-events: none; */
   border-radius: 3px;
   padding: 0 5px 5px 5px;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
 }
-
-
 
 .preview-box .show{
   opacity: 1;
@@ -772,7 +577,6 @@ margin: 0;
   height: 100%;
   width: 100%;
   z-index: 2;
-  /* display: none; */
   background: rgba(0,0,0,0.4);
 }
 
@@ -781,11 +585,186 @@ margin: 0;
   border-radius: 0 0 3px 3px;
 }
 
+/* MEDIA QUERIES */ 
 
-/* 
-@media screen and (max-width:600px){
-  .container-portfolio{
-    height: 200px !important;
+@media only screen and (max-width: 1700px) {
+  .borders {
+    display: none;
   }
-} */
 
+  .borders-r {
+    display: none;
+  }
+
+  .borders-cdd {
+    display: none;
+  }
+
+  .CDDspaces {
+    display: block;
+  }
+}
+
+/* laptop size */
+
+@media only screen and (max-height: 720px) {
+
+  .WUXheading,
+  .BOAheading,
+  .CDDheading {
+    margin-top: 162px;
+    font-size: 38px;
+  }
+}
+
+/* iphone 8 size */
+
+@media only screen and (max-height: 667px) {
+
+  .WUXheading,
+  .BOAheading,
+  .CDDheading {
+    margin-top: 140px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .WUXheading,
+  .BOAheading,
+  .CDDheading {
+    font-size: 38px;
+  }
+
+  .spaces {
+    display: block;
+  }
+
+  #defaultCanvas0 {
+    transform: scale(0.5);
+    position: absolute;
+    margin-top: -300px;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+  }
+
+  .triangle {
+    width: 120vw;
+    height: 420px;
+    background: purple;
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    position: absolute;
+    bottom: 0%;
+    left: -10%;
+    color: white;
+    background-image: url(../images/CDDbackground72.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+    @media only screen and (max-width: 768px) {
+      .nav-left {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+      }
+
+      .WUX-nav {
+        height: 140px;
+      }
+
+      .WUX-nav ul {
+        padding-top: 70px;
+      }
+
+      .BOA-nav {
+        height: 140px;
+      }
+
+      .BOA-nav ul {
+        padding-top: 70px;
+      }
+
+      .CDD-nav {
+        height: 140px;
+      }
+
+      .CDD-nav ul {
+        padding-top: 70px;
+      }
+
+      .aboutContainer {
+        padding: 40px;
+      }
+
+      .modal-body {
+        overflow-y: visible !important;
+      }
+
+      .container-portfolio {
+        column-count: 2 !important;
+      }
+    }
+
+     @media only screen and (max-width: 414px) {
+
+       .WUXheading,
+       .BOAheading,
+       .CDDheading {
+         font-size: 24px;
+       }
+
+       .spaces {
+         display: block;
+       }
+
+       .triangle {
+         width: 120vw;
+         height: 50%;
+         background: purple;
+         clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+         position: absolute;
+         bottom: 0%;
+         left: -10%;
+         color: white;
+         background-image: url(../images/CDDbackground72.png);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+       }
+
+       #defaultCanvas0 {
+         transform: scale(0.3);
+         position: absolute;
+         margin-top: -298px;
+         margin-left: -450px;
+         top: 50%;
+         left: 50%;
+         cursor: pointer;
+         transition: all 0.3s ease;
+       }
+
+       .container-portfolio {
+         column-count: 1 !important;
+       }
+     }
+
+    @media only screen and (max-width: 375px) {
+      .CDDheading {
+        margin-top: 120px;
+        font-size: 24px;
+
+      }
+
+      .nav-link a {
+        padding: 0px !important;
+      }
+    }
+
+    
