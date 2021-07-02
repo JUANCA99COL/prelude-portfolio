@@ -490,12 +490,16 @@ transition: all 0.3s ease;
   text-align: center!important;
 }
 
-.modal-footer-WUX {
+.modal-footer-WUX, .header-WUX {
   background-color: rgba(152, 211, 221, 0.15);
 }
 
-.header-WUX {
-  background-color: rgba(152, 211, 221, 0.15);
+.modal-footer-BOA, .header-BOA {
+  background-color: rgba(227, 123, 76, 0.15);
+}
+
+.modal-footer-CDD, .header-CDD {
+  background-color: rgba(137, 79, 159, 0.15);
 }
 
 
@@ -580,6 +584,10 @@ transition: all 0.3s ease;
 .image-box img {
   width: 100%;
   border-radius: 0 0 3px 3px;
+}
+
+.card-title {
+  cursor: pointer;
 }
 
 /* MEDIA QUERIES */ 
