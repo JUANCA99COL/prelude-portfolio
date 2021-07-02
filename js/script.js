@@ -216,13 +216,13 @@ $(document).ready(function () {
                 'learning and adapting new changes according to market requirements. Confident' +
                 'in front-end development, UX design, also well used with Javascript, React and love' +
                 'to create unique and professional styles.',
-            project01: '03-muhammed-01.png',
-            project02: '03-muhammed-02.png',
-            project03: '03-muhammed-03.png',
-            project04: '03-muhammed-04.png',
-            project05: '03-muhammed-05.png',
-            project06: '03-muhammed-06.png',
-            project07: '03-muhammed-07.png'
+            project01: '03-muhammed-02.png',
+            project02: '03-muhammed-03.png',
+            project03: '03-muhammed-04.png',
+            project04: '03-muhammed-05.png',
+            project05: '',
+            project06: '',
+            project07: ''
         },
         {
             id: 11,
@@ -242,7 +242,7 @@ $(document).ready(function () {
             project04: '03-natalia-04.png',
             project05: '03-natalia-05.png',
             project06: '03-natalia-06.png',
-            project07: '03-natalia-07.png'
+            project07: ''
         },
         {
             id: 12,
@@ -704,18 +704,18 @@ $(document).ready(function () {
         ); //end of apprend
     }
 
-    // $('.shadow').hide();
-    // $('.preview-box').hide();
 
     $('.image-portfolio').click(function(){
         selectedImg = $(this).find('img').attr("src");
         console.log(selectedImg);
         $('.preview-box').show();
+        $('.shadow').show();
         $('.image-box').find('img').attr("src", selectedImg);
     });
 
     $('.fa-times').click(function(){
         $('.preview-box').hide();
+        $('.shadow').hide();
     });
 
  
@@ -771,41 +771,8 @@ $(document).ready(function () {
 
 
 // ==========================================================
-// full screen portfolio
+// package for animation
 // ==========================================================
-
-// selecting all required elements
-// const filterItem = document.querySelector("#image-b");
-// const filterImg = document.querySelectorAll(".gallery .image");
-
-
-// window.onload = ()=>{ 
-//     for (let i = 0; i < filterImg.length; i++) {
-//         filterImg[i].setAttribute("onclick", "preview(this)");
-//     }
-// };
-
-
-
-// const previewBox = document.querySelector(".preview-box");
-// previewImg = previewBox.querySelector("#image-b");
-// closeIcon = previewBox.querySelector(".icon");
-
-// Fullscreen preview image function 
-// function preview() {
-//     previewBox.classList.add("show");
-// };
-
-// fullscreen preview image function
-// function preview(element){
-//     previewBox.classList.add("show");
-// }
-
-
-
-// ==========================================================
-    // package for animation
-    // ==========================================================
 
 
 
