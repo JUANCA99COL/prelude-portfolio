@@ -20,10 +20,10 @@ transition: all 0.3s ease;
 
 
 
-.front-page {
+/* .front-page {
   overflow-x: hidden;
   overflow-y: hidden;
-}
+} */
 
 /* ------------------- font  -------------------*/
 
@@ -158,15 +158,16 @@ transition: all 0.3s ease;
 
 
   .triangle {
-    width: 120vw;
-    height: 500px;
+    width: 100vw;
+    height: 50%;
     background: purple;
-    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    /* clip-path: polygon(0% 100%, 50% 0%, 100% 100%); */
+    clip-path: polygon(50% 0%, 100% 80%, 100% 100%, 0 100%, 0 80%);
     position: absolute;
     bottom: 0%;
-    left: -10%;
+    left: 0%;
     color: white;
-    background-image: url("../images/CDDbackground72.png");
+    background-image: url("../images/CDDbackground72new.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -211,7 +212,7 @@ transition: all 0.3s ease;
 
                  /* hover div to show subheading*/
 
-    .no-touch .triangle .triangle-2021, .no-touch .left .left-2021, .no-touch .right .right-2021{
+    .triangle .triangle-2021, .left .left-2021, .right .right-2021{
     display: none;
     }
 
@@ -255,7 +256,7 @@ transition: all 0.3s ease;
     }
 
     .CDD-students{
-      background-image: url(../images/CDDbackground72.png);
+      background-image: url(../images/CDDbackground72new.png);
       background-position: center;
       background-size: cover;
       background-repeat: repeat;
@@ -652,15 +653,16 @@ transition: all 0.3s ease;
   }
 
   .triangle {
-    width: 120vw;
-    height: 420px;
+    width: 100vw;
+    height: 50%;
     background: purple;
-    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    /* clip-path: polygon(0% 100%, 50% 0%, 100% 100%); */
+    clip-path: polygon(50% 0%, 100% 80%, 100% 100%, 0 100%, 0 80%);
     position: absolute;
     bottom: 0%;
-    left: -10%;
+    left: 0%;
     color: white;
-    background-image: url(../images/CDDbackground72.png);
+    background-image: url(../images/CDDbackground72new.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -725,15 +727,16 @@ transition: all 0.3s ease;
        }
 
        .triangle {
-         width: 120vw;
+         width: 100vw;
          height: 50%;
          background: purple;
-         clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+         /* clip-path: polygon(0% 100%, 50% 0%, 100% 100%); */
+         clip-path: polygon(50% 0%, 100% 80%, 100% 100%, 0 100%, 0 80%);
          position: absolute;
          bottom: 0%;
-         left: -10%;
+         left: 0%;
          color: white;
-         background-image: url(../images/CDDbackground72.png);
+         background-image: url(../images/CDDbackground72new.png);
          background-position: center;
          background-repeat: no-repeat;
          background-size: cover;
@@ -757,7 +760,7 @@ transition: all 0.3s ease;
 
     @media only screen and (max-width: 375px) {
       .CDDheading {
-        margin-top: 120px;
+        margin-top: 160px;
         font-size: 24px;
 
       }
