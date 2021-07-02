@@ -616,13 +616,84 @@ $(document).ready(function () {
     function displayCards2(i) {
         // console.log("loop running");
         $('#animationResult').append(
-            
-            '<div class="col">' +
+
+            '<div class="col" data-bs-toggle="modal" data-bs-target=#' + studentsBOA[i].name.replace(/ /g, "") + ' >' +
             '<a href="" class="student-link"><img src="images/BachelorOfAnimation/BW/' + studentsBOA[i].photoProfile + '" class="card-img-top rounded-circle border border border-5 border-light" alt="' + '"></a>' +
-            '<div class="card-body">' +
+            '<div class="card-body " >' +
             '<h5 class="card-title text-center bg-white p-2 rounded-pill">' + studentsBOA[i].name + '</h5>' +
             '</div>' +
-            '</div>'
+            '</div>' +
+
+            // Modal
+            '<div class="modal fade " id=' + studentsBOA[i].name.replace(/ /g, "") + ' tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">' +
+                '<div class="modal-dialog modal-dialog-scrollable modal-fullscreen modal-fullscreen-xxl-down" style="overflow:auto!important;">' +
+                    '<div class="modal-content" style="overflow:auto!important;">' +
+                        '<div class="modal-header header-BOA">'+
+                            '<h3 class="modal-title " id="staticBackdropLabel">' + studentsBOA[i].name + '</h3>' +
+                            '<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>'+
+                        '</div>'+
+
+                        // Student Projects 01
+                        '<div class="modal-body">'+
+                            '<div class="container-portfolio">'+
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/BOA/' + studentsBOA[i].project01 + '" alt="">' +
+                                '</div>' +    
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/BOA/' + studentsBOA[i].project02 + '" alt="">' +
+                                '</div>' +    
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/BOA/' + studentsBOA[i].project03 + '" alt="">' +
+                                '</div>' +    
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/BOA/' + studentsBOA[i].project04 + '" alt="">' +
+                                '</div>' +    
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/BOA/' + studentsBOA[i].project05 + '" alt="">' +
+                                '</div>' +    
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/BOA/' + studentsBOA[i].project06 + '" alt="">' +
+                                '</div>' +    
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/BOA/' + studentsBOA[i].project07 + '" alt="">' +
+                                '</div>' +
+                            '</div>'+
+                        '</div>'+
+
+                        // Fullscreen image preview box 
+                        '<div class="preview-box" style="display:none">'+
+                            '<div class="details">'+
+                                '<span class="title">Bachelor of Animation</span>'+
+                                '<span class="icon fas fa-times"></span>'+
+                            '</div>'+
+                            '<div class="image-box">'+
+                                '<img id="image-b" src=" '+ selectedImg + '" alt="">'+
+                            '</div>' +    
+                        '</div>'+
+                        '<div class="shadow" style="display:none"></div>'+
+
+
+
+                        // Student Profile 
+                        '<div class="modal-footer modal-footer-BOA">'+
+                            '<div class="row">'+
+                                '<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">'+
+                                    '<img class="student_image" src="images/BachelorOfAnimation/BW/' + studentsBOA[i].photoProfile + '" alt="">' +
+                                '</div>'+
+                                '<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 aboutContainer">'+
+                                    '<h4>About</h4>'+
+                                    '<p>' + studentsBOA[i].detail + '</p><br>' +
+                                    '<h4>Contact Links</h4>'+
+                                    '<ul>'+
+                                        '<li>'+ studentsBOA[i].social +'</li>'+
+                                    '</ul>'+
+                                '</div>'+
+                            '</div>'+
+                        '</div>'+
+                    '</div>'+
+                '</div>'+
+            '</div>' // End Modal
+
         ); //end of apprend
     }
 
@@ -696,11 +767,8 @@ $(document).ready(function () {
                         '</div>'+
                         '<div class="shadow" style="display:none"></div>'+
 
-
-
                         // Student Profile 
                         '<div class="modal-footer modal-footer-WUX">'+
-                        // '<div class="container">'+
                             '<div class="row">'+
                                 '<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">'+
                                     '<img class="student_image" src="images/Web&UxDesign/BW/' + studentsWUX[j].photoProfile + '" alt="">'+
@@ -721,26 +789,6 @@ $(document).ready(function () {
         ); //end of apprend
     }
 
-
-    $('.image-portfolio').click(function(){
-        selectedImg = $(this).find('img').attr("src");
-        console.log(selectedImg);
-        $('.preview-box').show();
-        $('.shadow').show();
-        $('.image-box').find('img').attr("src", selectedImg);
-    });
-
-    $('.fa-times').click(function(){
-        $('.preview-box').hide();
-        $('.shadow').hide();
-    });
-
- 
-
-    $('.student-link').click(function(){
-        event.preventDefault();
-    })// preventing auto refresh
-
     // ==========================================================
     // Function to display all Creative Digital Design students
     // ==========================================================
@@ -755,43 +803,111 @@ $(document).ready(function () {
 
     function displayCards3(j) {
         $('#CDDresult').append(
-            '<div class="col">' +
+
+            '<div class="col" data-bs-toggle="modal" data-bs-target=#' + studentsCDD[j].name.replace(/ /g, "") + ' >' +
             '<a href="" class="student-link"><img src="images/CreativeDigitalDesign/BW/' + studentsCDD[j].photoProfile + '" class="card-img-top rounded-circle border border border-5 border-light" alt="' + '"></a>' +
-            '<div class="card-body">' +
+            '<div class="card-body " >' +
             '<h5 class="card-title text-center bg-white p-2 rounded-pill">' + studentsCDD[j].name + '</h5>' +
             '</div>' +
-            '</div>'
+            '</div>' +
+
+            // Modal
+            '<div class="modal fade " id=' + studentsCDD[j].name.replace(/ /g, "") + ' tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">' +
+                '<div class="modal-dialog modal-dialog-scrollable modal-fullscreen modal-fullscreen-xxl-down" style="overflow:auto!important;">' +
+                    '<div class="modal-content" style="overflow:auto!important;">' +
+                        '<div class="modal-header header-CDD">'+
+                            '<h3 class="modal-title " id="staticBackdropLabel">' + studentsCDD[j].name + '</h3>' +
+                            '<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>'+
+                        '</div>'+
+
+                        // Student Projects 01
+                        '<div class="modal-body">'+
+                            '<div class="container-portfolio">'+
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/CDD/' + studentsCDD[j].project01 + '" alt="">' +
+                                '</div>' +    
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/CDD/' + studentsCDD[j].project02 + '" alt="">' +
+                                '</div>' +    
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/CDD/' + studentsCDD[j].project03 + '" alt="">' +
+                                '</div>' +    
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/CDD/' + studentsCDD[j].project04 + '" alt="">' +
+                                '</div>' +    
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/CDD/' + studentsCDD[j].project05 + '" alt="">' +
+                                '</div>' +    
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/CDD/' + studentsCDD[j].project06 + '" alt="">' +
+                                '</div>' +    
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/CDD/' + studentsCDD[j].project07 + '" alt="">' +
+                                '</div>' +
+                            '</div>'+
+                        '</div>'+
+
+                        // Fullscreen image preview box 
+                        '<div class="preview-box" style="display:none">'+
+                            '<div class="details">'+
+                                '<span class="title">Creative Digital Design</span>'+
+                                '<span class="icon fas fa-times"></span>'+
+                            '</div>'+
+                            '<div class="image-box">'+
+                                '<img id="image-b" src=" '+ selectedImg + '" alt="">'+
+                            '</div>' +    
+                        '</div>'+
+                        '<div class="shadow" style="display:none"></div>'+
+
+
+
+                        // Student Profile 
+                        '<div class="modal-footer modal-footer-CDD">'+
+                            '<div class="row">'+
+                                '<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">'+
+                                    '<img class="student_image" src="images/CreativeDigitalDesign/BW/' + studentsCDD[j].photoProfile + '" alt="">' +
+                                '</div>'+
+                                '<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 aboutContainer">'+
+                                    '<h4>About</h4>'+
+                                    '<p>' + studentsCDD[j].detail + '</p><br>' +
+                                    '<h4>Contact Links</h4>'+
+                                    '<ul>'+
+                                        '<li>' + studentsCDD[j].social + '</li>' +
+                                    '</ul>'+
+                                '</div>'+
+                            '</div>'+
+                        '</div>'+
+                    '</div>'+
+                '</div>'+
+            '</div>' // End Modal
+
         ); //end of apprend
     }
 
+    // OPEN PROJECTMODELS
+    $('.image-portfolio').click(function () {
+        selectedImg = $(this).find('img').attr("src");
+        console.log(selectedImg);
+        $('.preview-box').show();
+        $('.shadow').show();
+        $('.image-box').find('img').attr("src", selectedImg);
+    });
 
-    // ==========================================================
-    // Display profile
-    // ==========================================================
+    $('.fa-times').click(function () {
+        $('.preview-box').hide();
+        $('.shadow').hide();
+    });
 
-    function studentProfile() {
-        $('.student-link').click(function () {
-            var i = 0;
-            for (i = 0; 1 < studentsAnimation.length; i++) {
-                if (parseInt(this.id) === studentsAnimation[i].id) {
-                    
-                }
-            }
-        }); //end of click event
-    } //end of student profile
-
-
+    $('.student-link').click(function () {
+        event.preventDefault();
+    }) // preventing auto refresh
   
 }); //Document Ready Jquery
-
-
 
 
 // ==========================================================
 // package for animation
 // ==========================================================
-
-
 
 const presets = [
     [
@@ -809,10 +925,7 @@ const presets = [
     ],
 ];
 
-
-
 /* animation  */
-
 let windowW = window.innerWidth;
 let windowH = window.innerHeight;
 let isLoaded = false;
