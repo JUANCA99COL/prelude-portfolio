@@ -250,11 +250,11 @@ $(document).ready(function () {
             name: 'Josh van der Waay',
             email: 'joshvdw@live.com',
             photoProfile: 'Josh.jpg',
-            social: 'behance.net/joshvdw / github.com/joshvdw',
-            detail: 'My name is Josh van der Waay and I’m a passionate creative with a love for' +
-                'technology living in Wellington. <br>' +
-                'I’m currently focused on front-end development, but looking to further develop my' +
-                'skills so that I can be more versatile and become a full-stack web develope!',
+            social: 'behance.net/joshvdw <br> <ul style="list-style-type:disc;"><li>github.com/joshvdw</li></ul>',
+            detail: 'My name is Josh van der Waay and I’m a passionate creative with a love for ' +
+                'technology living in Wellington. <br><br>' +
+                "My current primary focus is on front-end web development, but I'm looking to further develop my " +
+                'skills so that I can be a more versatile full-stack developer! <br><br>',
             project01: '03-josh-01.png',
             project02: '03-josh-02.png',
             project03: '03-josh-03.png',
@@ -633,9 +633,9 @@ $(document).ready(function () {
 
             // Modal
             '<div class="modal fade " id='+studentsWUX[j].name.replace(/ /g, "")+' tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">'+
-                '<div class="modal-dialog modal-dialog-scrollable modal-fullscreen modal-fullscreen-xxl-down">'+
-                    '<div class="modal-content">'+
-                        '<div class="modal-header">'+
+                '<div class="modal-dialog modal-dialog-scrollable modal-fullscreen modal-fullscreen-xxl-down" style="overflow:auto!important;">' +
+                    '<div class="modal-content" style="overflow:auto!important;">' +
+                        '<div class="modal-header header-WUX">'+
                             '<h3 class="modal-title " id="staticBackdropLabel">'+studentsWUX[j].name+'</h3>'+
                             '<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>'+
                         '</div>'+
@@ -682,7 +682,7 @@ $(document).ready(function () {
 
 
                         // Student Profile 
-                        '<div class="modal-foote">'+
+                        '<div class="modal-footer modal-footer-WUX">'+
                         // '<div class="container">'+
                             '<div class="row">'+
                                 '<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">'+
