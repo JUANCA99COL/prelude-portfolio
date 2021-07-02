@@ -231,7 +231,10 @@ transition: all 0.3s ease;
       left: 50%;
       cursor: pointer;
       transition:all 0.4s ease;
+    }
 
+    #full-screen:hover {
+      cursor: pointer;
     }
 
     #canvas-wrapper {
@@ -768,7 +771,7 @@ transition: all 0.3s ease;
 
     @media only screen and (max-width: 375px) {
       .CDDheading {
-        margin-top: 160px;
+        margin-top: 120px;
         font-size: 24px;
 
       }
