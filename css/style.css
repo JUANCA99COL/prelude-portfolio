@@ -556,17 +556,17 @@ transition: all 0.3s ease;
       padding-left: 0;
     }
     .WUXcopyright {
-      background-color: rgba(152, 211, 221, 0.3);
+      background-color: rgba(152, 211, 221, 1);
       height: 50px;
       text-align: center;
     }
     .BOAcopyright {
-      background-color: rgba(227, 123, 76, 0.3);
+      background-color: rgba(227, 123, 76, 1);
       height: 50px;
       text-align: center;
     }
     .CDDcopyright {
-      background-color: rgba(137, 79, 159, 0.3);
+      background-color: rgba(137, 79, 159, 1);
       height: 50px;
       text-align: center;
     }
