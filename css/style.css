@@ -581,8 +581,15 @@ margin: 0;
       .CDD-nav ul {
         padding-top: 70px;
       }
+      .aboutContainer {
+        padding: 40px;
+      }
 
+      .modal-body{
+        overflow-y: visible!important;
+      }
     }
+
 
     @media only screen and (min-width: 1024px) {
       #WUX_nav:hover, #CDD_nav:hover, #BOA_nav:hover {
@@ -641,10 +648,21 @@ margin: 0;
     }
 
   
+/* Modal Styling - Josh */
 
+.modal-title {
+  width: 100%;
+  display: inline-block;
+  text-align: center!important;
+}
 
+.modal-footer-WUX {
+  background-color: rgba(152, 211, 221, 0.15);
+}
 
-
+.header-WUX {
+  background-color: rgba(152, 211, 221, 0.15);
+}
 
 
 
