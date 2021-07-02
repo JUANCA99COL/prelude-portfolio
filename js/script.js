@@ -44,9 +44,9 @@ $(document).ready(function () {
             email: 'calebflame@gmail.com',
             photoProfile: 'Caleb-WYPYCH.jpg',
             social: 'Artstation.com/warsaw',
-            detail: 'I’m a 3D generalist, majoring in Houdini VFX. At first, I laughed at the idea of using' +
-                'Houdini because it was too complicated but after learning more about it and seeing' +
-                'what Houdini could do. It made me fall in love with it. I’m really passionate about' +
+            detail: 'I’m a 3D generalist, majoring in Houdini VFX. At first, I laughed at the idea of using ' +
+                'Houdini because it was too complicated but after learning more about it and seeing ' +
+                'what Houdini could do. It made me fall in love with it. I’m really passionate about ' +
                 'breaking down how VFX works and being able to make something I want to!',
             project01: '01-caleb-01.png',
             project02: '01-caleb-02.png',
@@ -63,10 +63,10 @@ $(document).ready(function () {
             email: 'dwight.bruce24@gmail.com',
             photoProfile: 'Dwight-BRUCE.jpg',
             social: 'www.artstation.com/dwight_bruce',
-            detail: 'I love bringing characters and stories to life. I’m a 2D artist whose primary strength' +
-                'is Pre-Vis & Storyboarding. Additionally I am a solid composer/musician, sound' +
-                'designer, editor and writer. <br>' +
-                'In the future I am aiming to work as an Independant Content Creator, and self' +
+            detail: 'I love bringing characters and stories to life. I’m a 2D artist whose primary strength ' +
+                'is Pre-Vis & Storyboarding. Additionally I am a solid composer/musician, sound ' +
+                'designer, editor and writer. <br><br>' +
+                'In the future I am aiming to work as an Independant Content Creator, and self ' +
                 'publish my own original Comics, Music & Animated content.',
             project01: '01-dwight-01.jpg',
             project02: '01-dwight-02.jpeg',
@@ -83,7 +83,7 @@ $(document).ready(function () {
             email: 'beccarabusiness@gmail.com',
             photoProfile: 'Rebecca-ROSS.jpg',
             social: '@lemonessia',
-            detail: 'I am an aspiring illustrator, writer and character modeler. I also enjoy taking long' +
+            detail: 'I am an aspiring illustrator, writer and character modeler. I also enjoy taking long ' +
                 'naps in the sun, and being ignored by my cat.',
             project01: '01-elabilles-01.jpg',
             project02: '01-elabilles-02.jpg',
@@ -100,10 +100,10 @@ $(document).ready(function () {
             email: 'heialthea@gmail.com',
             photoProfile: 'Erika-LABILLES.jpg',
             social: '@artstation.com/heialthea',
-            detail: 'I am a 3D artist and work as freelance illustrator on the side. My passion is in' +
-                'creating characters of all sorts and finding ways to show their personalities through' +
-                'their looks. I strive for the highest quality and standards with my illustrations' +
-                'and 3D sculpts and always eager to learn new techniques and skills with every' +
+            detail: 'I am a 3D artist and work as freelance illustrator on the side. My passion is in ' +
+                'creating characters of all sorts and finding ways to show their personalities through ' +
+                'their looks. I strive for the highest quality and standards with my illustrations ' +
+                'and 3D sculpts and always eager to learn new techniques and skills with every ' +
                 'opportunity.',
             project01: '01-elabilles-01.jpg',
             project02: '01-elabilles-02.jpg',
@@ -120,10 +120,10 @@ $(document).ready(function () {
             email: 'raeanne.boschat@hotmail.com',
             photoProfile: 'Rae-BOSCHAT.jpg',
             social: '@gaillean_arts',
-            detail: 'I’m a 2D artist with a cartoony style and a keen interest in folklore and fantasy as' +
-                'a genre, such as the tales from the British Isles. I also enjoy telling stories through' +
-                'artwork, for example comics and storyboarding, I like using colour theory to' +
-                'portray mood and composition to further communicate character emotions. Mixing' +
+            detail: 'I’m a 2D artist with a cartoony style and a keen interest in folklore and fantasy as ' +
+                'a genre, such as the tales from the British Isles. I also enjoy telling stories through ' +
+                'artwork, for example comics and storyboarding, I like using colour theory to ' +
+                'portray mood and composition to further communicate character emotions. Mixing ' +
                 '2D and 3D assets is a personal project to find creative ways to tell visual stories.',
             project01: '01-rae-01.png',
             project02: '01-rae-02.png',
@@ -140,13 +140,13 @@ $(document).ready(function () {
             email: 'mcintyse.100@gmail.com',
             photoProfile: 'Seth-MCINTIRE.jpg',
             social: '@100_seth',
-            detail: 'I specialise in, level design, environment art and 3D modeling. I am passionate' +
-                'about creating games that offer interactivity, engagement and socialisation.<br>' +
-                'Because I believe games should be used as a social platform that engages the' +
-                'audience rather than pushing them away.<br>' +
-                'I have always liked enginneering at a young age, it always fasicinates me on how' +
-                'to make things work, finding the intersection between function and form. By using' +
-                'my passion, I am able to translate that into my level designs, creating levels that are' +
+            detail: 'I specialise in, level design, environment art and 3D modeling. I am passionate ' +
+                'about creating games that offer interactivity, engagement and socialisation.<br><br>' +
+                'Because I believe games should be used as a social platform that engages the ' +
+                'audience rather than pushing them away.<br><br>' +
+                'I have always liked enginneering at a young age, it always fasicinates me on how ' +
+                'to make things work, finding the intersection between function and form. By using ' +
+                'my passion, I am able to translate that into my level designs, creating levels that are ' +
                 'both intuitive to use, and fun to engage with.',
             project01: '01-seth-01.jpg',
             project02: '01-seth-02.png',
@@ -163,10 +163,10 @@ $(document).ready(function () {
             email: 'timothy.chivers@gmail.com',
             photoProfile: 'Tim-CHIVERS.jpg',
             social: '@trimmuisme',
-            detail: 'I am a passionate visual artist with a large focus on storytelling. I enjoy' +
-                'experimenting with visuals styles to create spome unique in order ot enhance' +
-                'the stories I tell. My main focus is in 2D but I greatly enjoy working with 3D' +
-                'and combining the two.<br>',
+            detail: 'I am a passionate visual artist with a large focus on storytelling. I enjoy ' +
+                'experimenting with visuals styles to create spome unique in order ot enhance ' +
+                'the stories I tell. My main focus is in 2D but I greatly enjoy working with 3D ' +
+                'and combining the two.',
             project01: '01-tim-01.jpg',
             project02: '01-tim-02.jpg',
             project03: '01-tim-03.jpg',
@@ -190,10 +190,10 @@ $(document).ready(function () {
             email: 'arlittledesign@gmail.com',
             photoProfile: 'Alex-LITTLE.jpg',
             social: 'alex.yoobee.site/portfolio',
-            detail: 'I enjoy complex problems and turning them into simple and beautiful interface' +
-                'designs. I also love the logic and structure of coding and always strive to write' +
-                'elegant and efficient code, whether it be in HTML, CSS or jQuery. <br>' +
-                'When I’m not coding or pushing pixels you’ll find me exploring the Greater' +
+            detail: 'I enjoy complex problems and turning them into simple and beautiful interface ' +
+                'designs. I also love the logic and structure of coding and always strive to write ' +
+                'elegant and efficient code, whether it be in HTML, CSS or jQuery. <br><br>' +
+                'When I’m not coding or pushing pixels you’ll find me exploring the Greater ' +
                 'Wellignton Region or repairing vintage computers.',
             project01: '03-alexander-01.png',
             project02: '03-alexander-02.png',
@@ -210,8 +210,8 @@ $(document).ready(function () {
             email: 'jcamilocarorodriguez@gmail.com',
             photoProfile: 'Juan.jpg',
             social: '@juankcaro',
-            detail: 'I love making websites because I get to be creative and solve problems daily, I find' +
-                'web design a way to get the attention of someone and somehow entertain them' +
+            detail: 'I love making websites because I get to be creative and solve problems daily, I find ' +
+                'web design a way to get the attention of someone and somehow entertain them ' +
                 'and transform the user experience into a fun and exciting way.',
             project01: '03-juan-01.png',
             project02: '03-juan-02.png',
@@ -228,10 +228,10 @@ $(document).ready(function () {
             email: 'mshahas786@gmail.com',
             photoProfile: 'Muhammed-SHAHAS.jpg',
             social: '@muhammedshahas786',
-            detail: 'My enthusiasm towards understanding and widening my skills in the field of web' +
-                'development has helped me to become a full-stack developer. Passionate towards' +
-                'learning and adapting new changes according to market requirements. Confident' +
-                'in front-end development, UX design, also well used with Javascript, React and love' +
+            detail: 'My enthusiasm towards understanding and widening my skills in the field of web ' +
+                'development has helped me to become a full-stack developer. Passionate towards ' +
+                'learning and adapting new changes according to market requirements. Confident ' +
+                'in front-end development, UX design, also well used with Javascript, React and love ' +
                 'to create unique and professional styles.',
             project01: '03-muhammed-02.png',
             project02: '03-muhammed-03.png',
@@ -248,10 +248,10 @@ $(document).ready(function () {
             email: 'ntlc.ramirez@gmail.com',
             photoProfile: 'Natalia-RAMIREZ.jpg',
             social: 'www.nataliacatalina.com',
-            detail: 'Coming from a journey in photography and photo retouching, I challenged myself to learn and discover new things.<br>' +
-                'That’s when I discovered web. Coding and development are not things I had considered for myself in the past' +
-                'I’m still new to it, but I’ve enjoyed how demanding and inspiring it is.<br>' +
-                'I enjoy front- and back-end coding and UI development. My background in photography and Adobe Photoshop has proven valuable within web and I look forward' +
+            detail: 'Coming from a journey in photography and photo retouching, I challenged myself to learn and discover new things.<br><br>' +
+                'That’s when I discovered web. Coding and development are not things I had considered for myself in the past ' +
+                'I’m still new to it, but I’ve enjoyed how demanding and inspiring it is.<br><br>' +
+                'I enjoy front- and back-end coding and UI development. My background in photography and Adobe Photoshop has proven valuable within web and I look forward ' +
                 'to continued growth in this area.',
             project01: '03-natalia-01.png',
             project02: '03-natalia-02.png',
@@ -287,9 +287,9 @@ $(document).ready(function () {
             email: 'hayleyclarkedesign@gmail.com',
             photoProfile: 'Hayley-CLARKE.jpg',
             social: 'https://www.behance.net/hayleyclarke1',
-            detail: 'Aspiring Web & Graphic Designer.' +
-                    'I’ve always found myself getting lost in the creative process and problem solving of design. I want to' +
-                    'evoke thought and conversations and ultimately create a positive impact on our society and' +
+            detail: 'Aspiring Web & Graphic Designer. <br><br>' +
+                    'I’ve always found myself getting lost in the creative process and problem solving of design. I want to ' +
+                    'evoke thought and conversations and ultimately create a positive impact on our society and ' +
                     'environment through my visual work.',
             project01: '03-hayley-01.png',
             project02: '03-hayley-02.png',
@@ -329,11 +329,11 @@ $(document).ready(function () {
             email: 'atmaraza@gmail.com',
             photoProfile: 'Alexis-ARAZA.jpg',
             social: '@alexis.araza',
-            detail: 'Since coming to the Creative Digital Design Course, I’ve found that my enthusiasim' +
-                    'and curiosity as a designer has grown with each lesson learnt. I’ve discovered joy' +
-                    'in venturing out of my comfort zone and experimenting with different digital and' +
-                    'physical mediums for unique and compelling outcomes. My time at Yoobee has' +
-                    'been a meaningful and memorable experience to me not only as a student but also' +
+            detail: 'Since coming to the Creative Digital Design Course, I’ve found that my enthusiasim ' +
+                    'and curiosity as a designer has grown with each lesson learnt. I’ve discovered joy'  +
+                    'in venturing out of my comfort zone and experimenting with different digital and ' +
+                    'physical mediums for unique and compelling outcomes. My time at Yoobee has ' +
+                    'been a meaningful and memorable experience to me not only as a student but also ' +
                     'as an individual, and I look forward to see what else I can find and design!',                
             project01: '02-alexis-01.png',
             project02: '02-alexis-02.png',
@@ -350,10 +350,10 @@ $(document).ready(function () {
             email: 'garchachirag@gmail.com',
             photoProfile: 'Chirag-GARCHA.jpg',
             social: '@studentsocialmedia',
-            detail: 'I am a 20 year-old design enthusiast always keen to learn! My personal ambition in' +
-                    'the world of design is to be a fluent illustrator since I have an eye for different styles' +
-                    'of art. In my learning curve of two years with Yoobee, I have got the opportunity to' +
-                    'explore so many platforms and work on different scenarios. I am very excited to put' +
+            detail: 'I am a 20 year-old design enthusiast always keen to learn! My personal ambition in ' +
+                    'the world of design is to be a fluent illustrator since I have an eye for different styles ' +
+                    'of art. In my learning curve of two years with Yoobee, I have got the opportunity to ' +
+                    'explore so many platforms and work on different scenarios. I am very excited to put ' +
                     'my skills to a test and go on to learn more.',                
             project01: '02-chirag-01.png',
             project02: '02-chirag-02.png',
@@ -371,9 +371,9 @@ $(document).ready(function () {
             photoProfile: 'David-SCOTT.jpg',
             social: '@Arrowskee',
             detail: 'Getting out of my comfort zone is always where I’ve felt in my element.' +
-                    'Perseverance and a good attitude got me to where I am and I’m really proud of the' +
-                    'progress I’ve made. The design course has taught not only how to be a better artist' +
-                    'and designer, but it’s also taught me that as long as I put my all into something I' +
+                    'Perseverance and a good attitude got me to where I am and I’m really proud of the ' +
+                    'progress I’ve made. The design course has taught not only how to be a better artist ' +
+                    'and designer, but it’s also taught me that as long as I put my all into something I ' +
                     'enjoy, I can make some sick art.',   
             project01: '02-david-01.png',
             project02: '02-david-02.png',
@@ -390,10 +390,10 @@ $(document).ready(function () {
             email: 'hello@emmanuella.design',
             photoProfile: 'Emmanuella-REID.jpg',
             social: 'www.emmanuella.design',
-            detail: 'I might have been born here in New Zealand, but travelling around Australia with' +
-                    'a new home and school each year taught me to appreciate how art and design can' +
-                    'transcend over different languages and cultures. Over the last two years here at' +
-                    'Yoobee, my love and knowledge for visual communication and graphic design has' +
+            detail: 'I might have been born here in New Zealand, but travelling around Australia with ' +
+                    'a new home and school each year taught me to appreciate how art and design can ' +
+                    'transcend over different languages and cultures. Over the last two years here at ' +
+                    'Yoobee, my love and knowledge for visual communication and graphic design has ' +
                     'only continued to grow and develop, and I can’t see it ever ending.',   
             project01: '02-emmanuella-01.png',
             project02: '02-emmanuella-02.png',
@@ -410,9 +410,9 @@ $(document).ready(function () {
             email: 'finbaker@hotmail.com',
             photoProfile: 'Fin-BAKER.jpg',
             social: '@fbaker_gd',
-            detail: 'For me, the most satisfying stage of the design process is the concepting phase. I' +
-                    'can spend days duplicating and changing a design, ending with hundreds of variations' +
-                    'and exploring every avenue. From within this stage is where the best work is made' +   
+            detail: 'For me, the most satisfying stage of the design process is the concepting phase. I ' +
+                    'can spend days duplicating and changing a design, ending with hundreds of variations ' +
+                    'and exploring every avenue. From within this stage is where the best work is made ' +   
                     'and it’s where I love to exist.',
             project01: '02-fin-01.png',
             project02: '02-fin-02.png',
@@ -429,11 +429,11 @@ $(document).ready(function () {
             email: 'gordon.britmac@gmail.com',
             photoProfile: 'Gordon-MACLEOD.jpg',
             social: '@commcain',
-            detail: 'Storytelling is the core driver behind all my creative impulses, I love to create' +
-                    'designs that weave a story that people can lose themselves in. Atmosphere,' +
-                    'emotion and depth are all key components in how I approach projects for' +
-                    'businesses, consumers and creative designers. It’s been a pleasure to explore and' +
-                    'refine my ideas and processes during my years at Yoobee, and it has inspired me to' +
+            detail: 'Storytelling is the core driver behind all my creative impulses, I love to create ' +
+                    'designs that weave a story that people can lose themselves in. Atmosphere, ' +
+                    'emotion and depth are all key components in how I approach projects for ' +
+                    'businesses, consumers and creative designers. It’s been a pleasure to explore and ' +
+                    'refine my ideas and processes during my years at Yoobee, and it has inspired me to ' +
                     'go beyond hobbyism and explore with real freedom.',  
             project01: '02-gordon-01.png',
             project02: '02-gordon-02.png',
@@ -450,9 +450,9 @@ $(document).ready(function () {
             email: 'jacobprestondesigns@gmail.com',
             photoProfile: 'Jacob-PRESTON.jpg',
             social: '@jake_designsthings',
-            detail: 'A design is a plan or specification for the construction of an object or system' +
-                    'or for the implementation of an activity or process, or the result of that plan or' +
-                    'specification in the form of a prototype, product or process. The verb to design' +
+            detail: 'A design is a plan or specification for the construction of an object or system ' +
+                    'or for the implementation of an activity or process, or the result of that plan or ' +
+                    'specification in the form of a prototype, product or process. The verb to design ' +
                     'expresses the process of developing a design.',
             project01: '02-jacob-01.png',
             project02: '02-jacob-02.png',
@@ -469,12 +469,12 @@ $(document).ready(function () {
             email: 'maxowenchristensen@yahoo.com',
             photoProfile: 'Max-CHRISTENSEN.jpg',
             social: '@maxchristensen.design',
-            detail: 'My Journey through Yoobee has given me an opportunity to grow and evolve as' +
-                    'a graphic designer & illustrator. Yoobee has helped me to re-discover my love for' +
-                    'illustration design and the ways I can combine that with branding and identity. They' +
-                    'have also introduced me to my new found love of teaching, and helping people learn' +
-                    'graphic design and develop their skills. Through a lot of trial and error over the past' +
-                    '2 years, I can now safely say that I have built myself a strong arsenal of skills to be' +
+            detail: 'My Journey through Yoobee has given me an opportunity to grow and evolve as ' +
+                    'a graphic designer & illustrator. Yoobee has helped me to re-discover my love for ' +
+                    'illustration design and the ways I can combine that with branding and identity. They ' +
+                    'have also introduced me to my new found love of teaching, and helping people learn ' +
+                    'graphic design and develop their skills. Through a lot of trial and error over the past ' +
+                    '2 years, I can now safely say that I have built myself a strong arsenal of skills to be ' +
                     'able to help anyone tell their story through stunning design.',
             project01: '02-max-01.png',
             project02: '02-max-02.png',
@@ -491,11 +491,11 @@ $(document).ready(function () {
             email: 'morgan.ramji@gmail.com',
             photoProfile: 'Morgan-RAMJI.jpg',
             social: '@morgs.designs',
-            detail: 'The past few years at Yoobee have pushed me well out of my comfort zone.' +
-                    'They’ve allowed me to grow immensely as a designer; I’ve managed to overcome' +
-                    'challenges both within the course content and within myself. I’ve enjoyed' +
-                    'experimenting with both physical and digital mediums to creatively solve design' +
-                    'problems. I’m excited to further expand my learning and to keep developing my' +
+            detail: 'The past few years at Yoobee have pushed me well out of my comfort zone. ' +
+                    'They’ve allowed me to grow immensely as a designer; I’ve managed to overcome ' +
+                    'challenges both within the course content and within myself. I’ve enjoyed ' +
+                    'experimenting with both physical and digital mediums to creatively solve design ' +
+                    'problems. I’m excited to further expand my learning and to keep developing my ' +
                     'skillset in the future.',
             project01: '02-morgan-01.png',
             project02: '02-morgan-02.png',
@@ -512,11 +512,11 @@ $(document).ready(function () {
             email: 'prakashbhana.design@gmail.com',
             photoProfile: 'Prakash-BHANA.jpg',
             social: '@Prakash_Bhana',
-            detail: 'My journey through Yoobee has helped me grow as an artist and a person. As a' +
-                    'photographer I have always been interested in making creative content and exploring' +
-                    'the unknown. As this course has progressed my curiosity for creatively solving'   +
-                    'problems and developing ideas has gone beyond what I thought I was capable of.' +
-                    'I can’t wait to take my knowledge and skill into the world and continue my creative' +
+            detail: 'My journey through Yoobee has helped me grow as an artist and a person. As a ' +
+                    'photographer I have always been interested in making creative content and exploring ' +
+                    'the unknown. As this course has progressed my curiosity for creatively solving '   +
+                    'problems and developing ideas has gone beyond what I thought I was capable of. ' +
+                    'I can’t wait to take my knowledge and skill into the world and continue my creative ' +
                     'journey.',
             project01: '02-prakash-01.png',
             project02: '02-prakash-02.png',
@@ -533,13 +533,13 @@ $(document).ready(function () {
             email: 'inkspirating@gmail.com',
             photoProfile: 'Sahil-BANSAL.jpg',
             social: '@commcreat',
-            detail: 'Hello, there. I am Sahil Bansal, and I am from Delhi, India. I like to incubate and'   +
-                    'build brands. To make myself better at it, I took a sabbatical to learn more. Each' +
-                    'brand, to me, is a person, grasping to communicate with my senses and I’ve begun' +
-                    'my learning curve with Yoobee to equip myself better for exploring Design as a tool.' +
-                    'As a culmination of my lifelong reverence for advertising, I want to make myself' +
-                    'worthy to give birth to one such brand that cannot be overlooked. A brand that' +
-                    'screams out and echoes its fundamental characteristics - an intangible entity with' +
+            detail: 'Hello, there. I am Sahil Bansal, and I am from Delhi, India. I like to incubate and '   +
+                    'build brands. To make myself better at it, I took a sabbatical to learn more. Each ' +
+                    'brand, to me, is a person, grasping to communicate with my senses and I’ve begun ' +
+                    'my learning curve with Yoobee to equip myself better for exploring Design as a tool. ' +
+                    'As a culmination of my lifelong reverence for advertising, I want to make myself ' +
+                    'worthy to give birth to one such brand that cannot be overlooked. A brand that ' +
+                    'screams out and echoes its fundamental characteristics - an intangible entity with ' +
                     'tangible presence; everything Communication Design is about.',
             project01: '02-sahil-01.png',
             project02: '02-sahil-02.png',
@@ -556,13 +556,13 @@ $(document).ready(function () {
             email: 'raymondwenruirose@gmail.com',
             photoProfile: 'Ray-ROSE.jpg',
             social: '@broteinnz',
-            detail: 'As technology becomes more a part of our everyday lives the digital-art-space will'   +
-                    'only continue to grow. I personally see the virtual design sector as the next frontier' +
-                    'for human artistic expression and exploration. Bound by only what you envision' +
-                    'and your ability to translate pen to paper... or in this case, cursor to pixel. <br>' +
-                    'Before beginning my creative journey I had no prior design experience, my time' +
-                    'at Yoobee has given me form, structure and a more deliberate approach when it' +
-                    'comes to problem solving. The support and guidance of the staff and especially my' +
+            detail: 'As technology becomes more a part of our everyday lives the digital-art-space will '   +
+                    'only continue to grow. I personally see the virtual design sector as the next frontier ' +
+                    'for human artistic expression and exploration. Bound by only what you envision ' +
+                    'and your ability to translate pen to paper... or in this case, cursor to pixel. <br><br>' +
+                    'Before beginning my creative journey I had no prior design experience, my time ' +
+                    'at Yoobee has given me form, structure and a more deliberate approach when it ' +
+                    'comes to problem solving. The support and guidance of the staff and especially my ' +
                     'tutors have been instrumental in bringing this creative endeavour to fruition.',
             project01: '02-ray-01.png',
             project02: '02-ray-02.png',
@@ -579,9 +579,9 @@ $(document).ready(function () {
             email: 'littlebusstudios@gmail.com',
             photoProfile: 'Tori-STEVENS.jpg',
             social: '@littlebusstudios @torias.corner',
-            detail: 'Having had my plans to move overseas postponed, I decided to treat myself to'   +
-                    'another year of education, and I’m so glad I did! I’ve been able to see myself develop' +
-                    'so much as a designer, as well as seeing my confidence in my ability grow too. I still' +
+            detail: 'Having had my plans to move overseas postponed, I decided to treat myself to '   +
+                    'another year of education, and I’m so glad I did! I’ve been able to see myself develop ' +
+                    'so much as a designer, as well as seeing my confidence in my ability grow too. I still ' +
                     'have so much to learn and I can’t wait to see how much further I can go!',
             project01: '02-tori-01.png',
             project02: '02-tori-02.png',
