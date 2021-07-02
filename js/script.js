@@ -85,13 +85,13 @@ $(document).ready(function () {
             social: '@lemonessia',
             detail: 'I am an aspiring illustrator, writer and character modeler. I also enjoy taking long ' +
                 'naps in the sun, and being ignored by my cat.',
-            project01: '01-elabilles-01.jpg',
-            project02: '01-elabilles-02.jpg',
-            project03: '01-elabilles-03.jpg',
-            project04: '01-elabilles-04.jpg',
-            project05: '01-elabilles-05.jpg',
-            project06: '01-elabilles-06.jpg',
-            project07: '01-elabilles-07.jpg'
+            project01: '01-rebecca-01.png',
+            project02: '01-rebecca-02.png',
+            project03: '01-rebecca-03.png',
+            project04: '01-rebecca-04.png',
+            project05: '01-rebecca-05.png',
+            project06: '01-rebecca-06.png',
+            project07: '01-rebecca-07.png'
         },
         {
             id: 4,
