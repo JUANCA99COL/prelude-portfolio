@@ -605,8 +605,15 @@ margin: 0;
       .CDD-nav ul {
         padding-top: 70px;
       }
+      .aboutContainer {
+        padding: 40px;
+      }
 
+      .modal-body{
+        overflow-y: visible!important;
+      }
     }
+
 
 
     .no-touch .triangle:hover .triangle-2021, .no-touch .left:hover .left-2021, .no-touch .right:hover .right-2021{
@@ -631,31 +638,6 @@ margin: 0;
     display: inline-block;
  } */
 
-
-
-
-    /* @media only screen and (min-width: 1024px) {
-      #WUX_nav:hover, #CDD_nav:hover, #BOA_nav:hover {
-        font-weight: bold;
-        color: #fff;
-        margin-top: 5px;
-      }
-
-    .triangle:hover .triangle-2021, .left:hover .left-2021, .right:hover .right-2021{
-        display: inline-block;
-     }
-  
-
-  
-      .triangle:hover, .left:hover, .right:hover {
-        cursor: pointer;
-      }
-  
-  
-      .triangle:hover .CDDheading, .left:hover .BOAheading, .right:hover .WUXheading {
-        font-weight: bold;
-      }
-    } */
 
 
     .accordion-button {
@@ -690,10 +672,21 @@ margin: 0;
     }
 
   
+/* Modal Styling - Josh */
 
+.modal-title {
+  width: 100%;
+  display: inline-block;
+  text-align: center!important;
+}
 
+.modal-footer-WUX {
+  background-color: rgba(152, 211, 221, 0.15);
+}
 
-
+.header-WUX {
+  background-color: rgba(152, 211, 221, 0.15);
+}
 
 
 
@@ -718,6 +711,11 @@ margin: 0;
 
 .image-portfolio:hover img {
   transform: scale(1.1);
+}
+
+.modal {
+  margin: 0;
+  padding: 0;
 }
 
 
