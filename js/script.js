@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    var selectedImg = "";
     $('#full-screen').click(function () {
         $('h1').show();
         $('#full-screen').hide();
@@ -270,7 +270,10 @@ $(document).ready(function () {
             email: 'hayleyclarkedesign@gmail.com',
             photoProfile: 'Hayley-CLARKE.jpg',
             social: 'https://www.behance.net/hayleyclarke1',
-            detail: '',
+            detail: 'Aspiring Web & Graphic Designer.' +
+                    'I’ve always found myself getting lost in the creative process and problem solving of design. I want to' +
+                    'evoke thought and conversations and ultimately create a positive impact on our society and' +
+                    'environment through my visual work.',
             project01: '03-hayley-01.png',
             project02: '03-hayley-02.png',
             project03: '03-hayley-03.png',
@@ -618,6 +621,7 @@ $(document).ready(function () {
     } //end of animationStudents function
 
     function displayCards(j) {
+        
         $('#webResult').append(
 
             '<div class="col" data-bs-toggle="modal" data-bs-target=#'+ studentsWUX[j].name.replace(/ /g, "") +' >' +
@@ -627,36 +631,94 @@ $(document).ready(function () {
               '</div>' +
             '</div>'+
 
-
-            '<div class="modal fade clearMP" id='+studentsWUX[j].name.replace(/ /g, "")+' tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">'+
-                '<div class="modal-dialog modal-fullscreen">'+
+            // Modal
+            '<div class="modal fade " id='+studentsWUX[j].name.replace(/ /g, "")+' tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">'+
+                '<div class="modal-dialog modal-dialog-scrollable modal-fullscreen modal-fullscreen-xxl-down">'+
                     '<div class="modal-content">'+
                         '<div class="modal-header">'+
-                            '<h3 class="modal-title" id="staticBackdropLabel">'+studentsWUX[j].name+'</h3>'+
+                            '<h3 class="modal-title " id="staticBackdropLabel">'+studentsWUX[j].name+'</h3>'+
                             '<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>'+
-                        ' </div>'+
+                        '</div>'+
+
+                        // Student Projects 01
                         '<div class="modal-body">'+
-                            '<div class="container">'+
-                                '<div class="row">'+
-                                    '<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">'+
-                                        '<img class="student_image" src="images/Web&UxDesign/BW/' + studentsWUX[j].photoProfile + '" alt="">'+
-                                    '</div>'+
-                                    '<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 aboutContainer">'+
-                                        '<h4>About</h4>'+
-                                        '<p>'+ studentsWUX[j].detail +'</p>'+
-                                        '<h4>Contact Links</h4>'+
-                                        '<ul>'+
-                                            '<li>'+ studentsWUX[j].social +'</li>'+
-                                        '</ul>'+
-                                    '</div>'+
+                            '<div class="container-portfolio">'+
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/WUX/' + studentsWUX[j].project01 + '" alt="">'+
+                                '</div>' +    
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/WUX/' + studentsWUX[j].project02 + '" alt="">'+
+                                '</div>' +    
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/WUX/' + studentsWUX[j].project03 + '" alt="">'+
+                                '</div>' +    
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/WUX/' + studentsWUX[j].project04 + '" alt="">'+
+                                '</div>' +    
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/WUX/' + studentsWUX[j].project05 + '" alt="">'+
+                                '</div>' +    
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/WUX/' + studentsWUX[j].project06 + '" alt="">'+
+                                '</div>' +    
+                                '<div class="image-portfolio">'+
+                                    '<img src="images/studentWork/WUX/' + studentsWUX[j].project07 + '" alt="">'+
+                                '</div>' +
+                            '</div>'+
+                        '</div>'+
+
+                        // Fullscreen image preview box 
+                        '<div class="preview-box" style="display:none">'+
+                            '<div class="details">'+
+                                '<span class="title">UX and Web Design</span>'+
+                                '<span class="icon fas fa-times"></span>'+
+                            '</div>'+
+                            '<div class="image-box">'+
+                                '<img id="image-b" src=" '+ selectedImg + '" alt="">'+
+                            '</div>' +    
+                        '</div>'+
+                        '<div class="shadow" style="display:none"></div>'+
+
+
+
+                        // Student Profile 
+                        '<div class="modal-foote">'+
+                        // '<div class="container">'+
+                            '<div class="row">'+
+                                '<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">'+
+                                    '<img class="student_image" src="images/Web&UxDesign/BW/' + studentsWUX[j].photoProfile + '" alt="">'+
+                                '</div>'+
+                                '<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 aboutContainer">'+
+                                    '<h4>About</h4>'+
+                                    '<p>'+ studentsWUX[j].detail +'</p>'+
+                                    '<h4>Contact Links</h4>'+
+                                    '<ul>'+
+                                        '<li>'+ studentsWUX[j].social +'</li>'+
+                                    '</ul>'+
                                 '</div>'+
                             '</div>'+
                         '</div>'+
                     '</div>'+
                 '</div>'+
-            '</div>'
+            '</div>' // End Modal
         ); //end of apprend
     }
+
+    // $('.shadow').hide();
+    // $('.preview-box').hide();
+
+    $('.image-portfolio').click(function(){
+        selectedImg = $(this).find('img').attr("src");
+        console.log(selectedImg);
+        $('.preview-box').show();
+        $('.image-box').find('img').attr("src", selectedImg);
+    });
+
+    $('.fa-times').click(function(){
+        $('.preview-box').hide();
+    });
+
+ 
 
     $('.student-link').click(function(){
         event.preventDefault();
@@ -704,6 +766,41 @@ $(document).ready(function () {
 
   
 }); //Document Ready Jquery
+
+
+
+
+// ==========================================================
+// full screen portfolio
+// ==========================================================
+
+// selecting all required elements
+// const filterItem = document.querySelector("#image-b");
+// const filterImg = document.querySelectorAll(".gallery .image");
+
+
+// window.onload = ()=>{ 
+//     for (let i = 0; i < filterImg.length; i++) {
+//         filterImg[i].setAttribute("onclick", "preview(this)");
+//     }
+// };
+
+
+
+// const previewBox = document.querySelector(".preview-box");
+// previewImg = previewBox.querySelector("#image-b");
+// closeIcon = previewBox.querySelector(".icon");
+
+// Fullscreen preview image function 
+// function preview() {
+//     previewBox.classList.add("show");
+// };
+
+// fullscreen preview image function
+// function preview(element){
+//     previewBox.classList.add("show");
+// }
+
 
 
 // ==========================================================

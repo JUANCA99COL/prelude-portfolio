@@ -213,11 +213,6 @@ transition: all 0.3s ease;
       display: none;
      }
 
-
-
-
-
-
     .container {
       position: relative;
     }
@@ -645,184 +640,105 @@ margin: 0;
       font-family: Subjectivity;
     }
 
-        /* -------------- Slideshow gallery -------------- */
-
-    /* .SlideshowContainer img {
-      vertical-align: middle;
-    }
-
-    .SlideshowContainer a{
-      text-decoration: none;
-    } */
+  
 
 
 
-    
-    /* Position the image container (needed to position the left and right arrows) */
-    /* .SlideshowContainer {
-      position: relative;
-      margin-top: 150px;
-    } */
-    
-    /* Hide the images by default */
-    /* .mySlides {
-      display: none;
-    } */
-    
-    /* Add a pointer when hovering over the thumbnail images */
-    /* .cursor {
-      cursor: pointer;
-    } */
-    
-    /* Next & previous buttons */
-    /* .prev,
-    .next {
-      cursor: pointer;
-      position: absolute;
-      top: 40%;
-      width: auto;
-      padding: 16px;
-      margin-top: -50px;
-      color: white;
-      font-weight: bold;
-      font-size: 20px;
-      border-radius: 0 3px 3px 0;
-      user-select: none;
-      -webkit-user-select: none;
-    } */
-    
-    /* Position the "next button" to the right */
-    /* .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
-    } */
-    
-    /* On hover, add a black background color with a little bit see-through */
-    /* .prev:hover,
-    .next:hover {
-      background-color: rgba(0, 0, 0, 0.8);
-      color: white;
-    } */
-    
-    /* Number text (1/3 etc) */
-    /* .numbertext {
-      color: #f2f2f2;
-      font-size: 12px;
-      padding: 8px 12px;
-      position: absolute;
-      top: 0;
-    } */
-    
-    /* Container for image text */
-    /* .caption-container {
-      text-align: center;
-      background-color: white;
-      padding: 2px 16px;
-      color: black;
-    } */
-    
-    /* Six columns side by side */
-    /* .column {
-      float: left;
-      width: 16.66%;
-    } */
-    
-    /* Add a transparency effect for thumnbail images */
-    /* .demo {
-      opacity: 0.6;
-    }
-    
-    .active,
-    .demo:hover {
-      opacity: 1;
-    } */
 
-    .clearMP{
-      padding: 0 !important;
-      margin: 0 !important;
-    }
 
-/* W3 SCHOOLS IMG SLIDESHOW */
 
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
+
+
+
+
+/* Natalias's code 01 */
+.container-portfolio {
+  column-count: 4;
+  padding: 20px;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
+.image-portfolio {
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
+.image-portfolio img {
+  width: 100%;
+  transition: 0.25s ease-in-out;
 }
 
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
+.image-portfolio:hover img {
+  transform: scale(1.1);
 }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+
+/* Preview  */
+.preview-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  max-width: 1000px;
+  max-height: 100vh;
+  width: 100%;
+  z-index: 5;
+  /* opacity: 0; */
+  /* pointer-events: none; */
+  border-radius: 3px;
+  padding: 0 5px 5px 5px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
 
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
+.preview-box .show{
   opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
 }
+
+.preview-box .details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 15px 13px 10px;
+}
+.preview-box .details .title {
+  margin-left: 5px;
+  font-weight: 400%;
+  font-size: 18px;
+}
+.details .icon {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.preview-box .image-box {
+  display: flex;
+  width: 100%;
+}
+.shadow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  /* display: none; */
+  background: rgba(0,0,0,0.4);
+}
+
+.image-box img {
+  width: 100%;
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* 
+@media screen and (max-width:600px){
+  .container-portfolio{
+    height: 200px !important;
+  }
+} */
+
