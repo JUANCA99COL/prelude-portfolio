@@ -298,22 +298,6 @@ $(document).ready(function () {
             project05: '03-hayley-05.png',
             project06: '03-hayley-06.png',
             project07: '03-hayley-07.png'
-        },
-        {
-            id: 14,
-            class: 'Web & UX Design',
-            name: 'Leo Brown',
-            email: '',
-            photoProfile: 'Leo-BROWN.jpg',
-            social: '',
-            detail: '',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
         }
     ]
 
