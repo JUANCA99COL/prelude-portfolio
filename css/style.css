@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-.col img:hover{
+.no-touch .col img:hover{
   -webkit-box-shadow: 0px 4px 20px 6px rgb(131 59 23);
   -moz-box-shadow: 0px 14px 41px -15px rgba(0,0,0,0.75);
   box-shadow: 0px 14px 41px -15px rgb(0 0 0 / 75%); 
@@ -303,17 +303,34 @@ transition: all 0.3s ease;
         }
       }
 
+      /* laptop size */
+ 
+ @media only screen and (max-height: 720px) {
+  .WUXheading, .BOAheading, .CDDheading {
+  margin-top: 162px;
+  font-size: 38px;
+  }
+  }
+  
+  /* iphone 8 size */
+  
+  @media only screen and (max-height: 667px) {
+  .WUXheading, .BOAheading, .CDDheading {
+  margin-top: 140px;
+  /* font-size: 21px; */
+  
+  }
+  }
+
+      
+
 
             /* Home page madia quaries  */
 
       @media only screen and (max-width: 1200px) {
         .WUXheading, .BOAheading, .CDDheading {
-         margin-top: 200px;
-         display: none;
+         /* margin-top: 200px; */
          font-size: 38px;
-
-         color: white;
-         text-decoration: none;
        }
 
        .spaces {
@@ -332,14 +349,14 @@ transition: all 0.3s ease;
       }
 
         .triangle {
-          width: 100vw;
+          width: 120vw;
           height: 420px;
           /* height: 400px; */
           background: purple;
           clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
           position: absolute;
           bottom: 0%;
-          left: 0%;
+          left: -10%;
           color: white;
           background-image: url(../images/CDDbackground72.png);
           background-position: center;
@@ -350,11 +367,7 @@ transition: all 0.3s ease;
 
      @media only screen and (max-width: 414px) {
            .WUXheading, .BOAheading, .CDDheading {
-           margin-top: 200px;
-           display: none;
-           font-size: 28px;
-           color: white;
-           text-decoration: none;
+           font-size: 24px;
          }
 
          .spaces {
@@ -362,13 +375,13 @@ transition: all 0.3s ease;
          }
 
          .triangle {
-          width: 100vw;
-          height: 50vh;
+          width: 120vw;
+          height: 50%;
           background: purple;
           clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
           position: absolute;
           bottom: 0%;
-          left: 0%;
+          left: -10%;
           color: white;
           background-image: url(../images/CDDbackground72.png);
           background-position: center;
@@ -387,6 +400,17 @@ transition: all 0.3s ease;
           transition: all 0.3s ease;
       }
     }
+
+    @media only screen and (max-width: 375px) {
+      .CDDheading {
+         margin-top: 120px;
+      font-size: 24px;
+      
+    }
+    .nav-link a {
+      padding: 0px !important;
+  }
+}
 
 
 
@@ -591,29 +615,29 @@ margin: 0;
     }
 
 
-    @media only screen and (min-width: 1024px) {
-      #WUX_nav:hover, #CDD_nav:hover, #BOA_nav:hover {
-        font-weight: bold;
-        color: #fff;
-        margin-top: 5px;
-      }
 
-      .triangle:hover .triangle-2021, .left:hover .left-2021, .right:hover .right-2021 {
-        display: inline-block;
-      }
-  
-      /* hover div to get pointer */
-  
-      .triangle:hover, .left:hover, .right:hover {
-        cursor: pointer;
-      }
-  
-          /* hover div to change font weight*/
-  
-      .triangle:hover .CDDheading, .left:hover .BOAheading, .right:hover .WUXheading {
-        font-weight: bold;
-      }
-    }
+    .no-touch .triangle:hover .triangle-2021, .no-touch .left:hover .left-2021, .no-touch .right:hover .right-2021{
+      display: inline-block;
+   }
+
+   .no-touch .triangle:hover, .no-touch .left:hover, .no-touch .right:hover {
+    cursor: pointer;
+  }
+
+  .no-touch .triangle:hover .CDDheading, .no-touch .left:hover .BOAheading, .no-touch .right:hover .WUXheading {
+    font-weight: bold;
+  }
+
+  .no-touch #WUX_nav:hover, .no-touch #CDD_nav:hover, .no-touch #BOA_nav:hover {
+    font-weight: bold;
+    color: #fff;
+    margin-top: 5px;
+  }
+
+/* .touch .triangle .triangle-2021, .touch .left .left-2021, .touch .right .right-2021{
+    display: inline-block;
+ } */
+
 
 
     .accordion-button {
