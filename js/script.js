@@ -304,7 +304,7 @@ $(document).ready(function () {
             class: 'Web & UX Design',
             name: 'Lajcee Miller',
             email: 'lajceemillerdesign@gmail.com',
-            photoProfile: 'lajcee.jpg',
+            photoProfile: 'Lajcee.jpg',
             social: 'https://www.behance.net/lajceemiller',
             detail: 'Using web and graphic design to help solve real world problems is something I find fulfilling and fun! ' +
                     'Studying at Yoobee has helped me gain the skills but most importantly, confidence, ' +
