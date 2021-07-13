@@ -310,7 +310,7 @@ $(document).ready(function () {
                     'Studying at Yoobee has helped me gain the skills but most importantly, confidence, ' +
                     'to put myself out there and refine my own personal style',
             project01: '03-lajcee-01.jpeg',
-            project02: '03-lajcee-02.jpeg',
+            project02: '03-lajcee-02.jpg',
             project03: '03-lajcee-03.jpeg',
             project04: '03-lajcee-04.jpeg',
             project05: '03-lajcee-05.jpeg',
