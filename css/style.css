@@ -537,6 +537,10 @@ transition: all 0.3s ease;
 
 
 /* Preview  */
+
+.modal-body {
+  overflow-y: visible !important;
+}
 .preview-box {
   position: fixed;
   top: 50%;
