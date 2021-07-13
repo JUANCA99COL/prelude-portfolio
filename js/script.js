@@ -259,7 +259,7 @@ $(document).ready(function () {
             project04: '03-natalia-04.png',
             project05: '03-natalia-05.png',
             project06: '03-natalia-06.png',
-            project07: ''
+            project07: '03-natalia-07.jpeg'
         },
         {
             id: 12,
@@ -298,6 +298,24 @@ $(document).ready(function () {
             project05: '03-hayley-05.png',
             project06: '03-hayley-06.png',
             project07: '03-hayley-07.png'
+        },
+        {
+            id: 14,
+            class: 'Web & UX Design',
+            name: 'Lajcee Miller',
+            email: 'lajceemillerdesign@gmail.com',
+            photoProfile: 'lajcee.jpg',
+            social: 'https://www.behance.net/lajceemiller',
+            detail: 'Using web and graphic design to help solve real world problems is something I find fulfilling and fun! ' +
+                    'Studying at Yoobee has helped me gain the skills but most importantly, confidence, ' +
+                    'to put myself out there and refine my own personal style',
+            project01: '03-lajcee-01.jpeg',
+            project02: '03-lajcee-02.jpeg',
+            project03: '03-lajcee-03.jpeg',
+            project04: '03-lajcee-04.jpeg',
+            project05: '03-lajcee-05.jpeg',
+            project06: '03-lajcee-06.jpeg',
+            project07: '03-lajcee-07.jpeg'
         }
     ]
 
@@ -651,7 +669,7 @@ $(document).ready(function () {
                                 '<span class="icon fas fa-times"></span>'+
                             '</div>'+
                             '<div class="image-box">'+
-                                '<img id="image-b" src=" '+ selectedImg + '" alt="">'+
+                                '<img class="img-fluid" id="image-b" src=" '+ selectedImg + '" alt="">'+
                             '</div>' +    
                         '</div>'+
                         '<div class="shadow" style="display:none"></div>'+
@@ -667,6 +685,8 @@ $(document).ready(function () {
                                 '<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 aboutContainer">'+
                                     '<h4>About</h4>'+
                                     '<p>' + studentsBOA[i].detail + '</p><br>' +
+                                    '<h4>Email</h4>'+
+                                    '<p>' + studentsBOA[i].email + '</p><br>' +
                                     '<h4>Contact Links</h4>'+
                                     '<ul>'+
                                         '<li>'+ studentsBOA[i].social +'</li>'+
@@ -746,7 +766,7 @@ $(document).ready(function () {
                                 '<span class="icon fas fa-times"></span>'+
                             '</div>'+
                             '<div class="image-box">'+
-                                '<img id="image-b" src=" '+ selectedImg + '" alt="">'+
+                                '<img class="img-fluid" id="image-b" src=" '+ selectedImg + '" alt="">'+
                             '</div>' +    
                         '</div>'+
                         '<div class="shadow" style="display:none"></div>'+
@@ -760,6 +780,8 @@ $(document).ready(function () {
                                 '<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 aboutContainer">'+
                                     '<h4>About</h4>'+
                                     '<p>'+ studentsWUX[j].detail +'</p><br>'+
+                                    '<h4>Email</h4>'+
+                                    '<p>'+ studentsWUX[j].email +'</p><br>'+
                                     '<h4>Contact Links</h4>'+
                                     '<ul>'+
                                         '<li>'+ studentsWUX[j].social +'</li>'+
@@ -777,7 +799,7 @@ $(document).ready(function () {
     // Function to display all Creative Digital Design students
     // ==========================================================
     function CDDstudents() {
-        console.log("functions is running");
+        // console.log("functions is running");
         var i = 0;
         $('#CDDresult').text('');
         for (i = 0; i < studentsCDD.length; i++) {
@@ -838,7 +860,7 @@ $(document).ready(function () {
                                 '<span class="icon fas fa-times"></span>'+
                             '</div>'+
                             '<div class="image-box">'+
-                                '<img id="image-b" src=" '+ selectedImg + '" alt="">'+
+                                '<img class="img-fluid" id="image-b" src=" '+ selectedImg + '" alt="">'+
                             '</div>' +    
                         '</div>'+
                         '<div class="shadow" style="display:none"></div>'+
@@ -854,6 +876,8 @@ $(document).ready(function () {
                                 '<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 aboutContainer">'+
                                     '<h4>About</h4>'+
                                     '<p>' + studentsCDD[j].detail + '</p><br>' +
+                                    '<h4>Email</h4>'+
+                                    '<p>' + studentsCDD[j].email + '</p><br>' +
                                     '<h4>Contact Links</h4>'+
                                     '<ul>'+
                                         '<li>' + studentsCDD[j].social + '</li>' +

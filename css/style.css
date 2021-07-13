@@ -578,7 +578,9 @@ transition: all 0.3s ease;
 .preview-box .image-box {
   display: flex;
   width: 100%;
+
 }
+
 .shadow {
   position: fixed;
   top: 0;
@@ -590,8 +592,11 @@ transition: all 0.3s ease;
 }
 
 .image-box img {
-  width: 100%;
+  width: auto;
+  max-height: 90vh;
   border-radius: 0 0 3px 3px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card-title {
