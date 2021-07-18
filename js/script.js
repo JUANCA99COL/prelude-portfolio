@@ -197,14 +197,14 @@ $(document).ready(function () {
             email: 'arlittledesign@gmail.com',
             photoProfile: 'Alex-LITTLE.jpg',
             social: 'arlittledesign',
-            website: 'alex.yoobee.site/portfolio',
+            website: 'www.arlittledesign.com',
             website2: '',
             detail: 'I enjoy complex problems and turning them into simple and beautiful interface ' +
                 'designs. I also love the logic and structure of coding and always strive to write ' +
                 'elegant and efficient code, whether it be in HTML, CSS or jQuery. <br><br>' +
                 'When I’m not coding or pushing pixels you’ll find me exploring the Greater ' +
-                'Wellignton Region or repairing vintage computers.',
-            project01: '03-alexander-01.png',
+                'Wellington Region or repairing vintage computers.',
+            project01: '03-alexander-01.jpg',
             project02: '03-alexander-02.png',
             project03: '03-alexander-03.png',
             project04: '03-alexander-04.png',
