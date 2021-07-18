@@ -185,6 +185,10 @@ transition: all 0.3s ease;
     background-size: cover;
   }
 
+  .aboutContainer ul {
+    list-style-type: none;
+  }
+
 
   .right {
     background-color: aqua;
@@ -604,6 +608,10 @@ transition: all 0.3s ease;
 }
 
 .card-title {
+  cursor: pointer;
+}
+
+.image-portfolio {
   cursor: pointer;
 }
 
