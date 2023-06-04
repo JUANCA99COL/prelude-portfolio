@@ -43,7 +43,8 @@ $(document).ready(function () {
             name: 'Caleb Wypych',
             email: 'calebflame@gmail.com',
             photoProfile: 'Caleb-WYPYCH.jpg',
-            social: 'Artstation.com/warsaw',
+            social: '',
+            website: 'Artstation.com/warsaw',
             detail: 'I’m a 3D generalist, majoring in Houdini VFX. At first, I laughed at the idea of using ' +
                 'Houdini because it was too complicated but after learning more about it and seeing ' +
                 'what Houdini could do. It made me fall in love with it. I’m really passionate about ' +
@@ -62,7 +63,8 @@ $(document).ready(function () {
             name: 'Dwight Bruce',
             email: 'dwight.bruce24@gmail.com',
             photoProfile: 'Dwight-BRUCE.jpg',
-            social: 'www.artstation.com/dwight_bruce',
+            social: '',
+            website: 'www.artstation.com/dwight_bruce',
             detail: 'I love bringing characters and stories to life. I’m a 2D artist whose primary strength ' +
                 'is Pre-Vis & Storyboarding. Additionally I am a solid composer/musician, sound ' +
                 'designer, editor and writer. <br><br>' +
@@ -82,7 +84,8 @@ $(document).ready(function () {
             name: 'Becca Ross',
             email: 'beccarabusiness@gmail.com',
             photoProfile: 'Rebecca-ROSS.jpg',
-            social: '@lemonessia',
+            social: 'lemonessia',
+            website: '',
             detail: 'I am an aspiring illustrator, writer and character modeler. I also enjoy taking long ' +
                 'naps in the sun, and being ignored by my cat.',
             project01: '01-rebecca-01.png',
@@ -99,7 +102,8 @@ $(document).ready(function () {
             name: 'Erika Labilles',
             email: 'heialthea@gmail.com',
             photoProfile: 'Erika-LABILLES.jpg',
-            social: '@artstation.com/heialthea',
+            social: '',
+            website: 'artstation.com/heialthea',
             detail: 'I am a 3D artist and work as freelance illustrator on the side. My passion is in ' +
                 'creating characters of all sorts and finding ways to show their personalities through ' +
                 'their looks. I strive for the highest quality and standards with my illustrations ' +
@@ -119,7 +123,8 @@ $(document).ready(function () {
             name: 'Rae Boschat',
             email: 'raeanne.boschat@hotmail.com',
             photoProfile: 'Rae-BOSCHAT.jpg',
-            social: '@gaillean_arts',
+            social: 'gaillean_arts',
+            website: '',
             detail: 'I’m a 2D artist with a cartoony style and a keen interest in folklore and fantasy as ' +
                 'a genre, such as the tales from the British Isles. I also enjoy telling stories through ' +
                 'artwork, for example comics and storyboarding, I like using colour theory to ' +
@@ -139,7 +144,8 @@ $(document).ready(function () {
             name: 'Seth McIntyre',
             email: 'mcintyse.100@gmail.com',
             photoProfile: 'Seth-MCINTIRE.jpg',
-            social: '@100_seth',
+            social: '100_seth',
+            website: '',
             detail: 'I specialise in, level design, environment art and 3D modeling. I am passionate ' +
                 'about creating games that offer interactivity, engagement and socialisation.<br><br>' +
                 'Because I believe games should be used as a social platform that engages the ' +
@@ -162,7 +168,8 @@ $(document).ready(function () {
             name: 'Tim Chivers',
             email: 'timothy.chivers@gmail.com',
             photoProfile: 'Tim-CHIVERS.jpg',
-            social: '@trimmuisme',
+            social: 'trimmuisme',
+            website: '',
             detail: 'I am a passionate visual artist with a large focus on storytelling. I enjoy ' +
                 'experimenting with visuals styles to create spome unique in order ot enhance ' +
                 'the stories I tell. My main focus is in 2D but I greatly enjoy working with 3D ' +
@@ -189,13 +196,15 @@ $(document).ready(function () {
             name: 'Alexander Little',
             email: 'arlittledesign@gmail.com',
             photoProfile: 'Alex-LITTLE.jpg',
-            social: 'alex.yoobee.site/portfolio',
+            social: 'arlittledesign',
+            website: 'www.arlittledesign.com',
+            website2: '',
             detail: 'I enjoy complex problems and turning them into simple and beautiful interface ' +
                 'designs. I also love the logic and structure of coding and always strive to write ' +
                 'elegant and efficient code, whether it be in HTML, CSS or jQuery. <br><br>' +
                 'When I’m not coding or pushing pixels you’ll find me exploring the Greater ' +
-                'Wellignton Region or repairing vintage computers.',
-            project01: '03-alexander-01.png',
+                'Wellington Region or repairing vintage computers.',
+            project01: '03-alexander-01.jpg',
             project02: '03-alexander-02.png',
             project03: '03-alexander-03.png',
             project04: '03-alexander-04.png',
@@ -213,6 +222,13 @@ $(document).ready(function () {
             detail: 'I enjoy creating high-quality applications, because it makes you develop solutions to day to day problems, I find ' +
             'coding really interesting as it is always evolving, therefore it challenges yourself to keep ' +
             'growing in the field.',
+            social: 'juankcaro',
+            website: 'juanca99col.github.io/portfolio/',
+            website2: '',
+            detail: 'I love making websites because I get to be creative and solve problems daily, I find ' +
+                'web design a way to get the attention of someone and somehow entertain them ' +
+                'and transform the user experience into a fun and exciting way.',
+            project01: '03-juan-01.png',
             project02: '03-juan-02.png',
             project03: '03-juan-03.png',
             project04: '03-juan-04.png',
@@ -224,7 +240,9 @@ $(document).ready(function () {
             name: 'Muhammed Shahas',
             email: 'mshahas786@gmail.com',
             photoProfile: 'Muhammed-SHAHAS.jpg',
-            social: '@muhammedshahas786',
+            social: 'muhammedshahas786',
+            website: 'Mshahas786.com',
+            website2: '',
             detail: 'My enthusiasm towards understanding and widening my skills in the field of web ' +
                 'development has helped me to become a full-stack developer. Passionate towards ' +
                 'learning and adapting new changes according to market requirements. Confident ' +
@@ -244,7 +262,9 @@ $(document).ready(function () {
             name: 'Natalia Ramirez',
             email: 'ntlc.ramirez@gmail.com',
             photoProfile: 'Natalia-RAMIREZ.jpg',
-            social: 'www.nataliacatalina.com',
+            social: '',
+            website: 'www.nataliacatalina.com',
+            website2: '',
             detail: 'Coming from a journey in photography and photo retouching, I challenged myself to learn and discover new things.<br><br>' +
                 'That’s when I discovered web. Coding and development are not things I had considered for myself in the past ' +
                 'I’m still new to it, but I’ve enjoyed how demanding and inspiring it is.<br><br>' +
@@ -264,7 +284,9 @@ $(document).ready(function () {
             name: 'Josh van der Waay',
             email: 'joshvdw@live.com',
             photoProfile: 'Josh.jpg',
-            social: 'behance.net/joshvdw <br> <ul style="list-style-type:disc;"><li>github.com/joshvdw</li></ul>',
+            social: '',
+            website: 'github.com/joshvdw',
+            website2: 'behance.net/joshvdw',
             detail: 'My name is Josh van der Waay and I’m a passionate creative with a love for ' +
                 'technology living in Wellington. <br><br>' +
                 "My current primary focus is on front-end web development, but I'm looking to further develop my " +
@@ -283,7 +305,9 @@ $(document).ready(function () {
             name: 'Hayley Clarke',
             email: 'hayleyclarkedesign@gmail.com',
             photoProfile: 'Hayley-CLARKE.jpg',
-            social: 'https://www.behance.net/hayleyclarke1',
+            social: '',
+            website: 'www.behance.net/hayleyclarke1',
+            website2: '',
             detail: 'Aspiring Web & Graphic Designer. <br><br>' +
                     'I’ve always found myself getting lost in the creative process and problem solving of design. I want to ' +
                     'evoke thought and conversations and ultimately create a positive impact on our society and ' +
@@ -302,7 +326,9 @@ $(document).ready(function () {
             name: 'Lajcee Miller',
             email: 'lajceemillerdesign@gmail.com',
             photoProfile: 'Lajcee.jpg',
-            social: 'https://www.behance.net/lajceemiller',
+            social: '',
+            website: 'www.behance.net/lajceemiller',
+            website2: '',
             detail: 'Using web and graphic design to help solve real world problems is something I find fulfilling and fun! ' +
                     'Studying at Yoobee has helped me gain the skills but most importantly, confidence, ' +
                     'to put myself out there and refine my own personal style',
@@ -327,7 +353,8 @@ $(document).ready(function () {
             name: 'Alexis Araza',
             email: 'atmaraza@gmail.com',
             photoProfile: 'Alexis-ARAZA.jpg',
-            social: '@alexis.araza',
+            social: 'alexis.araza',
+            website: '',
             detail: 'Since coming to the Creative Digital Design Course, I’ve found that my enthusiasim ' +
                     'and curiosity as a designer has grown with each lesson learnt. I’ve discovered joy'  +
                     'in venturing out of my comfort zone and experimenting with different digital and ' +
@@ -348,7 +375,8 @@ $(document).ready(function () {
             name: 'Chirag Garcha',
             email: 'garchachirag@gmail.com',
             photoProfile: 'Chirag-GARCHA.jpg',
-            social: '@studentsocialmedia',
+            social: 'chirag__garcha',
+            website: '',
             detail: 'I am a 20 year-old design enthusiast always keen to learn! My personal ambition in ' +
                     'the world of design is to be a fluent illustrator since I have an eye for different styles ' +
                     'of art. In my learning curve of two years with Yoobee, I have got the opportunity to ' +
@@ -368,7 +396,8 @@ $(document).ready(function () {
             name: 'David Scott',
             email: 'nz.david.scott@gmail.com',
             photoProfile: 'David-SCOTT.jpg',
-            social: '@Arrowskee',
+            social: 'Arrowskee',
+            website: '',
             detail: 'Getting out of my comfort zone is always where I’ve felt in my element.' +
                     'Perseverance and a good attitude got me to where I am and I’m really proud of the ' +
                     'progress I’ve made. The design course has taught not only how to be a better artist ' +
@@ -388,7 +417,8 @@ $(document).ready(function () {
             name: 'Emmanuella Reid',
             email: 'hello@emmanuella.design',
             photoProfile: 'Emmanuella-REID.jpg',
-            social: 'www.emmanuella.design',
+            social: '',
+            website: 'www.emmanuella.design',
             detail: 'I might have been born here in New Zealand, but travelling around Australia with ' +
                     'a new home and school each year taught me to appreciate how art and design can ' +
                     'transcend over different languages and cultures. Over the last two years here at ' +
@@ -408,7 +438,8 @@ $(document).ready(function () {
             name: 'Fin Baker',
             email: 'finbaker@hotmail.com',
             photoProfile: 'Fin-BAKER.jpg',
-            social: '@fbaker_gd',
+            social: 'fbaker_gd',
+            website: '',
             detail: 'For me, the most satisfying stage of the design process is the concepting phase. I ' +
                     'can spend days duplicating and changing a design, ending with hundreds of variations ' +
                     'and exploring every avenue. From within this stage is where the best work is made ' +   
@@ -427,7 +458,8 @@ $(document).ready(function () {
             name: 'Gordon MacLeod',
             email: 'gordon.britmac@gmail.com',
             photoProfile: 'Gordon-MACLEOD.jpg',
-            social: '@commcain',
+            social: 'commcain',
+            website: '',
             detail: 'Storytelling is the core driver behind all my creative impulses, I love to create ' +
                     'designs that weave a story that people can lose themselves in. Atmosphere, ' +
                     'emotion and depth are all key components in how I approach projects for ' +
@@ -448,7 +480,8 @@ $(document).ready(function () {
             name: 'Jacob Preston',
             email: 'jacobprestondesigns@gmail.com',
             photoProfile: 'Jacob-PRESTON.jpg',
-            social: '@jake_designsthings',
+            social: 'jake_designsthings',
+            website: '',
             detail: 'A design is a plan or specification for the construction of an object or system ' +
                     'or for the implementation of an activity or process, or the result of that plan or ' +
                     'specification in the form of a prototype, product or process. The verb to design ' +
@@ -467,7 +500,8 @@ $(document).ready(function () {
             name: 'Max Christensen',
             email: 'maxowenchristensen@yahoo.com',
             photoProfile: 'Max-CHRISTENSEN.jpg',
-            social: '@maxchristensen.design',
+            social: 'maxchristensen.design',
+            website: '',
             detail: 'My Journey through Yoobee has given me an opportunity to grow and evolve as ' +
                     'a graphic designer & illustrator. Yoobee has helped me to re-discover my love for ' +
                     'illustration design and the ways I can combine that with branding and identity. They ' +
@@ -489,7 +523,8 @@ $(document).ready(function () {
             name: 'Morgan Ramji',
             email: 'morgan.ramji@gmail.com',
             photoProfile: 'Morgan-RAMJI.jpg',
-            social: '@morgs.designs',
+            social: 'morgs.designs',
+            website: '',
             detail: 'The past few years at Yoobee have pushed me well out of my comfort zone. ' +
                     'They’ve allowed me to grow immensely as a designer; I’ve managed to overcome ' +
                     'challenges both within the course content and within myself. I’ve enjoyed ' +
@@ -510,7 +545,8 @@ $(document).ready(function () {
             name: 'Prakash Bhana',
             email: 'prakashbhana.design@gmail.com',
             photoProfile: 'Prakash-BHANA.jpg',
-            social: '@Prakash_Bhana',
+            social: 'Prakash_Bhana',
+            website: '',
             detail: 'My journey through Yoobee has helped me grow as an artist and a person. As a ' +
                     'photographer I have always been interested in making creative content and exploring ' +
                     'the unknown. As this course has progressed my curiosity for creatively solving '   +
@@ -531,7 +567,8 @@ $(document).ready(function () {
             name: 'Sahil Bansal',
             email: 'inkspirating@gmail.com',
             photoProfile: 'Sahil-BANSAL.jpg',
-            social: '@commcreat',
+            social: 'commcreat',
+            website: '',
             detail: 'Hello, there. I am Sahil Bansal, and I am from Delhi, India. I like to incubate and '   +
                     'build brands. To make myself better at it, I took a sabbatical to learn more. Each ' +
                     'brand, to me, is a person, grasping to communicate with my senses and I’ve begun ' +
@@ -554,7 +591,8 @@ $(document).ready(function () {
             name: 'Ray Rose',
             email: 'raymondwenruirose@gmail.com',
             photoProfile: 'Ray-ROSE.jpg',
-            social: '@broteinnz',
+            social: 'broteinnz',
+            website: '',
             detail: 'As technology becomes more a part of our everyday lives the digital-art-space will '   +
                     'only continue to grow. I personally see the virtual design sector as the next frontier ' +
                     'for human artistic expression and exploration. Bound by only what you envision ' +
@@ -577,7 +615,9 @@ $(document).ready(function () {
             name: 'Victoria Stevens',
             email: 'littlebusstudios@gmail.com',
             photoProfile: 'Tori-STEVENS.jpg',
-            social: '@littlebusstudios @torias.corner',
+            social: 'littlebusstudios',
+            social2: 'torias.corner',
+            website: '',
             detail: 'Having had my plans to move overseas postponed, I decided to treat myself to '   +
                     'another year of education, and I’m so glad I did! I’ve been able to see myself develop ' +
                     'so much as a designer, as well as seeing my confidence in my ability grow too. I still ' +
@@ -591,6 +631,12 @@ $(document).ready(function () {
             project07: '02-tori-07.png'
         },
     ]
+
+var filtered = studentsCDD.filter(function (el) {
+    return el != null;
+  });
+  
+  console.log(filtered);
 
     // ==========================================================
     // Function call to display all items
@@ -683,10 +729,11 @@ $(document).ready(function () {
                                     '<h4>About</h4>'+
                                     '<p>' + studentsBOA[i].detail + '</p><br>' +
                                     '<h4>Email</h4>'+
-                                    '<p>' + studentsBOA[i].email + '</p><br>' +
+                                    '<a href="mailto:' + studentsBOA[i].email + '"><p>' + studentsBOA[i].email + '</p></a><br>' +
                                     '<h4>Contact Links</h4>'+
                                     '<ul>'+
-                                        '<li>'+ studentsBOA[i].social +'</li>'+
+                                        '<li><a href="https://www.instagram.com/' + studentsBOA[i].social + '" target="_blank">'+ studentsBOA[i].social +'</li>'+
+                                        '<li><a href="http://' + studentsBOA[i].website + '" target="_blank">'+ studentsBOA[i].website +'</li>'+
                                     '</ul>'+
                                 '</div>'+
                             '</div>'+
@@ -778,10 +825,12 @@ $(document).ready(function () {
                                     '<h4>About</h4>'+
                                     '<p>'+ studentsWUX[j].detail +'</p><br>'+
                                     '<h4>Email</h4>'+
-                                    '<p>'+ studentsWUX[j].email +'</p><br>'+
+                                    '<a href="mailto:' + studentsWUX[j].email + '"><p>' + studentsWUX[j].email + '</p></a><br>' +
                                     '<h4>Contact Links</h4>'+
                                     '<ul>'+
-                                        '<li>'+ studentsWUX[j].social +'</li>'+
+                                        '<li><a href="https://www.instagram.com/' + studentsWUX[j].social + '" target="_blank">' + studentsWUX[j].social + '</a></li>' +
+                                        '<li><a href="http://' + studentsWUX[j].website + '" target="_blank">' + studentsWUX[j].website + '</a></li>' +  
+                                        '<li><a href="http://' + studentsWUX[j].website2 + '" target="_blank">' + studentsWUX[j].website2 + '</a></li>' +  
                                     '</ul>'+
                                 '</div>'+
                             '</div>'+
@@ -874,10 +923,11 @@ $(document).ready(function () {
                                     '<h4>About</h4>'+
                                     '<p>' + studentsCDD[j].detail + '</p><br>' +
                                     '<h4>Email</h4>'+
-                                    '<p>' + studentsCDD[j].email + '</p><br>' +
+                                    '<a href="mailto:' + studentsCDD[j].email + '"><p>' + studentsCDD[j].email + '</p></a><br>' +
                                     '<h4>Contact Links</h4>'+
                                     '<ul>'+
-                                        '<li>' + studentsCDD[j].social + '</li>' +
+                                        '<li><a href="https://www.instagram.com/' + studentsCDD[j].social + '" target="_blank">@' + studentsCDD[j].social + '</a></li>' +
+                                        '<li><a href="https://' + studentsCDD[j].website + '" target="_blank">' + studentsCDD[j].website + '</a></li>' +  
                                     '</ul>'+
                                 '</div>'+
                             '</div>'+
@@ -888,6 +938,7 @@ $(document).ready(function () {
 
         ); //end of apprend
     }
+
 
     // OPEN PROJECTMODELS
     $('.image-portfolio').click(function () {
