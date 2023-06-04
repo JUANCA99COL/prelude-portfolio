@@ -209,17 +209,14 @@ $(document).ready(function () {
             name: 'Juan Camilo Caro',
             email: 'jcamilocarorodriguez@gmail.com',
             photoProfile: 'Juan.jpg',
-            social: '@juankcaro',
-            detail: 'I love making websites because I get to be creative and solve problems daily, I find ' +
-                'web design a way to get the attention of someone and somehow entertain them ' +
-                'and transform the user experience into a fun and exciting way.',
-            project01: '03-juan-01.png',
+            social: 'github.com/JUANCA99COL',
+            detail: 'I enjoy creating high-quality applications, because it makes you develop solutions to day to day problems, I find ' +
+            'coding really interesting as it is always evolving, therefore it challenges yourself to keep ' +
+            'growing in the field.',
             project02: '03-juan-02.png',
             project03: '03-juan-03.png',
             project04: '03-juan-04.png',
-            project05: '03-juan-05.png',
-            project06: '03-juan-06.png',
-            project07: '03-juan-07.png'
+            project05: '03-juan-05.png'
         },
         {
             id: 10,
