@@ -209,7 +209,7 @@ $(document).ready(function () {
             name: 'Juan Camilo Caro',
             email: 'jcamilocarorodriguez@gmail.com',
             photoProfile: 'Juan.jpg',
-            social: 'github.com/JUANCA99COL',
+            social: 'www.codewithjuan.com',
             detail: 'I enjoy creating high-quality applications, because it makes you develop solutions to day to day problems, I find ' +
             'coding really interesting as it is always evolving, therefore it challenges yourself to keep ' +
             'growing in the field.',
